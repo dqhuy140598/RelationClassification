@@ -191,6 +191,7 @@ if __name__ == '__main__':
     parser.add_argument('--pretrained',help='your pretrained word2vec path',required=True)
     parser.add_argument('--cal_thresh',\
                         help='If False then threshold =0.5 else calculate threshold from output probability',\
-                        default=True)
+                        default=True,type=bool)
     args = parser.parse_args()
+    # print(type(args.cal_thresh))
     train(params,args.pretrained,args.cal_thresh)
