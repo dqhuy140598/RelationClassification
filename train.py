@@ -18,7 +18,7 @@ import argparse
 
 # Load pretrained model (since intermediate data is not included, the model cannot be refined with additional data)
 
-def train(params,pretrained_path,cal_thresh):
+def train(params,pretrained_path,use_thresh):
     """
     Train the cnn model
     @param params: hyper parameters
@@ -151,7 +151,7 @@ def train(params,pretrained_path,cal_thresh):
             loss = cnn_model.loss(batch_output, label)
 
             # Calculate the predicted class using train probability mean and standard deviation
-            pred_class = convert_output_to_class(batch_output, mu_stds,cal_thresh)
+            pred_class = convert_output_to_class(batch_output, mu_stds,use_thresh)
 
             val_loss.append(loss.item())
 
@@ -189,9 +189,9 @@ if __name__ == '__main__':
     params = parse_json(params_config)
     parser = argparse.ArgumentParser()
     parser.add_argument('--pretrained',help='your pretrained word2vec path',required=True)
-    parser.add_argument('--cal_thresh',\
+    parser.add_argument('--use_thresh',\
                         help='If False then threshold =0.5 else calculate threshold from output probability',\
                         default=True,type=bool)
     args = parser.parse_args()
     # print(type(args.cal_thresh))
-    train(params,args.pretrained,args.cal_thresh)
+    train(params,args.pretrained,args.use_thresh)
