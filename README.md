@@ -35,7 +35,24 @@
     (data/processed/vocab.txt)
 
 - Train model:
+
+    - If you use threshold equal to 0.5:
     
-    ``!python train.py --pretrained --pretrained $PRETRAINED_PATH$ --cal_thresh True``
+        ``!python train.py --pretrained --pretrained $PRETRAINED_PATH$``
     
+    - Else:
+        
+        ``!python train.py --pretrained --pretrained $PRETRAINED_PATH$ --use_thresh True``
+
+    -   $PRETRAINED_PATH$ : PATH to pretrained Word2Vec. Please replace it by **/content/GoogleNews-vectors-negative300.bin**
+    
+**2. EMNLP2017 Code:**
+
+- Convert the processed data to use for this code:
+
+
+
+
+
+
  

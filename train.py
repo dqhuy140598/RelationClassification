@@ -15,9 +15,6 @@ from torch.utils.data import DataLoader
 from dataset import RelationDataset
 import argparse
 
-
-# Load pretrained model (since intermediate data is not included, the model cannot be refined with additional data)
-
 def train(params,pretrained_path,use_thresh):
     """
     Train the cnn model
@@ -183,6 +180,7 @@ def train(params,pretrained_path,use_thresh):
 
     torch.save(cnn_model.state_dict(), 'model.pth')
 
+
 if __name__ == '__main__':
 
     params_config = 'config/params.json'
@@ -191,7 +189,7 @@ if __name__ == '__main__':
     parser.add_argument('--pretrained',help='your pretrained word2vec path',required=True)
     parser.add_argument('--use_thresh',\
                         help='If False then threshold =0.5 else calculate threshold from output probability',\
-                        default=True,type=bool)
+                        default=False,type=bool)
     args = parser.parse_args()
     # print(type(args.cal_thresh))
     train(params,args.pretrained,args.use_thresh)
