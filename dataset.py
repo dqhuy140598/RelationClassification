@@ -1,6 +1,3 @@
-import torch
-import os
-import numpy as np
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 from utils.build_vocab import *
@@ -11,6 +8,8 @@ depend_vocab_path = 'data/processed/depend_vocab.txt'
 vocab_dict, num_words = load_vocab_to_dict(vocab_path)
 pos_vocab_dict, num_pos = load_pos_vocab_to_dict(pos_vocab_path)
 depend_vocab_dict, num_depend = load_depend_vocab_to_dict(depend_vocab_path)
+
+print(pos_vocab_dict)
 
 class RelationDataset(Dataset):
 
