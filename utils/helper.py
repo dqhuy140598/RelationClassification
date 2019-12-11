@@ -44,7 +44,7 @@ def cal_thresh(pred_prob,labels):
     return mu_stds
 
 
-def convert_output_to_class(preds,mu_stds,scale=1.0):
+def convert_output_to_class(preds,mu_stds,cal_thresh=True,scale=1.0):
     """
     convert the output of model to predicted class
     @param preds: the output of the model
@@ -58,7 +58,7 @@ def convert_output_to_class(preds,mu_stds,scale=1.0):
     pred_class = [] # predicted class
     for i in range(len(max_prob)): # loop each output of the model
         max_class_one = max_class[i] # get class with the largest probability
-        threshold = max(0.5, 1. - scale * mu_stds[max_class_one][1]) # find threshold for the predicted class
+        threshold = max(0.5, 1. - scale * mu_stds[max_class_one][1]) if cal_thresh else 0.5 # find threshold for the predicted class
         if max_prob[i] >= threshold: # if the max value of probability greater than threshold
             pred_class.append(max_class[i]) # append the max class
         else:
