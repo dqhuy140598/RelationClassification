@@ -1,0 +1,2716 @@
+nsubj prep pobj
+nsubj dobj
+nsubj prep pobj
+dobj prep pobj
+nsubj attr acl agent pobj dobj prep pobj
+prep pobj
+dobj agent pobj
+prep pobj
+prep pobj
+nsubj dobj amod
+nsubj prep pobj
+compound
+dobj prep pobj
+compound
+nsubj prep pobj
+relcl dobj
+nsubj prep pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj
+nsubj prep pobj compound compound compound
+nsubj prep pobj
+compound
+conj
+compound
+compound
+nsubjpass dobj
+acl acl dobj prep pobj amod
+relcl prep pobj
+prep pobj
+acl dobj
+prep pobj nsubj conj dobj
+prep pobj
+nsubjpass agent pobj compound compound
+prep pobj
+nsubj dobj conj prep pobj
+prep pobj
+nsubjpass prep pobj
+prep pobj
+nsubjpass agent pobj
+nsubj attr prep pobj
+nsubj prep pobj
+nsubj dobj
+dobj prep pobj
+prep pobj nsubj prep pobj
+nsubjpass prep pobj amod
+dobj prep pobj
+appos nsubjpass prep pobj
+compound acl prep pobj
+nsubj dobj
+dobj prep pobj
+
+prep pobj
+prep pobj
+relcl prep pobj
+prep relcl pobj prep pobj
+dobj prep pobj
+nsubj dobj
+compound
+compound
+amod compound
+prep pobj
+nsubj acomp xcomp prep pcomp dobj
+nsubj attr prep pobj
+dobj prep pobj
+nsubj ccomp xcomp dobj
+nsubj xcomp dobj
+acl agent pobj
+pobj prep dobj
+nsubjpass agent pobj
+prep pobj
+nsubjpass prep pobj
+relcl agent pobj
+nsubj dobj
+nsubj prep pobj
+prep pobj
+nsubj prep pobj
+nsubj prep pobj
+dobj prep pobj
+nsubj xcomp dobj
+prep pobj
+prep pobj
+nsubj attr prep pobj
+prep pobj
+nsubjpass prep pobj acl dobj acl advcl prep pobj
+nsubj dobj prep pcomp dobj
+nsubj dobj amod
+nsubj prep pobj
+compound
+nsubj dobj
+nsubjpass prep pobj
+nsubj dobj intj relcl prep pobj
+dobj prep pobj prep pobj
+nsubj prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+prep pobj nsubj attr
+prep pobj
+nsubjpass prep pobj
+prep pobj prep pobj
+nsubj dobj
+nsubj prep pobj
+relcl prep pobj conj
+prep pobj nsubj attr
+acl agent pobj
+nsubjpass prep pobj
+nsubjpass agent pobj compound
+nsubj dobj
+compound
+prep pobj
+compound acl prep pcomp dobj compound
+nsubjpass prep pobj
+nsubjpass prep pobj
+amod nsubj dobj
+nsubjpass prep pobj
+dobj prep pcomp
+prep pobj prep pobj
+nsubj dobj
+prep pobj
+nsubj dobj
+dobj prep pobj compound
+nsubj prep pobj
+nsubjpass prep pobj
+nsubj prep pobj
+nsubj dobj
+compound
+nsubj dobj
+nsubj prep pobj
+nsubj dobj
+nsubj prep pobj amod
+compound
+acl dobj
+prep pobj
+nsubj prep pobj
+nsubjpass prep pobj compound
+nsubj dobj
+compound prep pobj
+prep pobj
+nsubjpass prep pobj prep pobj
+prep pobj
+compound compound
+prep prep pobj pobj
+dobj prep pobj
+nsubj advmod prep pobj
+compound
+nsubj dobj
+nsubj prep pobj
+nsubjpass prep pobj
+nsubj prep pobj
+nsubj dobj
+nsubj prep pobj
+prep pobj
+prep pobj
+nsubj dobj
+nsubj dobj prep pobj
+nsubj dobj
+prep pobj compound
+nsubj attr prep pobj
+conj nsubj dobj
+nsubjpass prep pobj
+nsubj prep pobj
+nsubj advmod prep pobj
+nsubjpass prep pobj
+nsubj dobj
+nsubj prep pobj
+nmod acl prep pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj compound
+nsubj prep pcomp dobj
+nsubj prep pobj
+prep pobj
+amod nsubjpass prep pobj prep pobj compound
+nsubj attr prep pobj prep pobj
+prep pobj
+dobj advcl nsubj
+amod nsubjpass prep pobj
+prep pobj nsubj prep pobj compound
+prep pobj nsubj dobj acl dobj
+acl dobj
+nsubjpass prep pobj
+dobj prep pobj
+nsubj dobj prep pobj
+relcl dobj
+nsubjpass prep pobj
+prep pobj
+dobj prep pobj
+amod
+nsubjpass prep pobj
+prep pobj prep pobj
+nsubj dobj
+prep pobj
+acl prep pobj
+nsubj dobj
+nsubjpass prep pobj compound
+nsubj prep pobj
+compound
+nsubjpass prep pobj
+dobj prep pobj
+nsubj advcl prep pobj
+prep pobj compound
+nsubj prep pobj
+prep pobj compound
+acl agent pobj amod
+nsubj prep pobj
+prep pobj
+nsubj prep pobj
+prep pobj
+prep pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj compound
+prep pobj nsubj prep pobj
+nsubj prep pobj
+compound
+amod prep pobj
+nsubj prep pobj
+prep pobj
+nsubjpass agent pobj
+dobj prep pobj compound
+dobj prep pobj
+nsubj prep pobj
+compound prep pobj
+nsubjpass prep pobj
+prep pobj
+relcl prep pobj
+nsubjpass prep pobj
+prep pobj
+prep prep pobj prep pobj pobj
+nsubj prep pobj
+nsubj prep pobj compound
+prep pobj
+nsubj dobj
+acl agent pobj
+prep pobj
+prep pobj
+acl prep pobj
+nsubj dobj prep pobj
+nsubj ccomp nsubj
+prep prep pobj pobj
+prep pobj
+dobj prep pobj
+prep pobj
+compound
+prep pobj
+compound
+nsubjpass prep pobj
+prep pobj
+dobj prep pobj
+dobj prep pobj
+prep pobj
+nsubj advmod prep pobj
+nsubj prep pobj nmod
+nsubj prep pobj prep pobj
+nsubj dobj prep pobj
+prep pobj
+nsubjpass agent pobj
+prep pobj
+nsubj advcl dobj
+compound
+nsubj dobj
+dobj dative pobj
+compound
+dobj prep pobj
+acl agent pobj
+nsubj prep pobj
+nsubj dobj
+
+nsubj ccomp nsubj amod nsubj
+dobj prep pobj
+prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+prep pobj
+prt prep prep pobj prep pobj pobj
+nsubj prep pobj
+acl compound nsubjpass
+nsubj prep pobj
+prep pobj conj
+prep pobj
+prep pobj amod
+dobj prep pobj
+compound
+nsubjpass agent pobj
+acl dobj
+nsubj prep pobj
+prep pobj
+prep acl pobj compound agent pobj
+dobj prep pobj
+nsubj prep pobj
+dobj prep pobj compound
+acl nsubjpass
+prep pobj
+nsubj dobj
+prep pobj
+prep pobj
+dobj prep pobj
+nsubj prep pobj
+nsubj dobj
+nsubj prep pcomp dobj
+compound
+compound
+compound
+nsubjpass prep pobj
+prep pobj nsubj dobj
+prep pobj
+acl agent pobj
+compound
+nsubj ccomp nsubj
+
+prep pobj
+nsubjpass agent pobj
+acl prep pobj prep pobj
+compound
+nsubjpass prep pobj compound
+prep pobj
+compound
+nsubjpass prep pobj
+nsubj prep pobj
+nsubj prep pcomp dobj
+dobj prep pobj
+prep pobj
+nsubj attr prep pobj
+dobj dative pobj
+nsubj dobj
+nsubj prep pobj
+prep pobj nsubjpass prep pobj
+nsubjpass prep pobj prep pobj
+prep pobj prep pobj
+acl agent pobj
+prep pobj
+attr prep compound pobj
+nsubjpass prep pobj
+prep pobj
+prep pobj
+compound
+nsubjpass prep pobj
+prep pobj prep pobj
+prep pobj
+nsubj prep pobj
+nsubj prep pobj
+prep pobj
+conj nsubj dobj
+dobj prep pobj compound
+nsubjpass prep pobj
+nsubjpass prep pobj
+nsubj attr
+prep pobj
+prep pobj
+nsubjpass prep prep pobj compound
+nsubjpass prep pobj
+prep pobj
+nsubjpass prep pobj prep pobj
+nsubjpass prep pobj
+prep acl pobj prep pobj
+dobj prep pobj
+nsubj prep pobj
+nsubj dobj compound
+prep pobj
+nsubj dobj
+relcl agent pobj conj
+nsubj attr prep pcomp dobj
+nsubj advmod prep pobj
+nsubj dobj prep pobj
+nsubj prep pobj prep pobj
+nsubj dobj
+nsubjpass prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+nsubj dobj
+nsubjpass prep pobj relcl prep pobj nsubjpass
+nsubj dobj
+acl agent pobj
+relcl dobj
+dobj prep pobj
+nsubj prep pobj
+compound nsubj attr prep pobj
+prep prep pobj pobj relcl dobj
+nsubj attr prep pobj compound
+prep pobj prep pobj
+compound
+acl agent pobj
+nsubj prep pobj
+nsubjpass prep pobj
+nsubj prep prep pobj
+nsubj dobj
+nsubj prep pobj
+prep pobj
+amod nsubj dobj prep pobj
+nsubjpass prep pobj
+prep advcl pobj compound nsubj
+compound
+acl prep pobj
+nsubj prep pobj
+prep pobj
+nsubj dobj prep pobj
+acl advmod prep pobj acl agent pobj
+nsubjpass prep pobj
+nsubj prep pobj
+relcl prep pobj nsubj prep pobj
+nsubjpass dative pobj
+nsubjpass agent pobj
+acl agent pobj
+acl agent pobj
+prep pobj
+prep pobj compound
+nsubj dobj
+compound
+acl agent pobj
+dobj prep pobj
+prep prep pobj pobj
+prep pobj
+dobj prep pobj
+dobj prep pobj
+prep pobj
+nsubj dobj acl
+dep dobj
+nsubjpass prep pobj
+pobj compound prep dobj
+nsubj dobj
+prep prep pobj conj pobj
+prep pobj
+dobj prep amod pobj
+nsubj prep pcomp dobj
+nsubj prep pobj
+nsubjpass agent pobj
+prep pobj
+prep pobj
+prep pobj
+nsubj advmod prep pobj
+compound
+compound prep pobj
+prep pobj compound
+acl prep pobj
+nsubj prep pobj
+relcl dobj
+compound nsubj attr prep pobj
+nsubjpass prep prep pobj
+dobj csubjpass agent pobj
+prep pobj nsubj xcomp prep pobj
+compound
+prep pobj amod
+prep pobj compound
+nsubj dobj
+nsubjpass prep pobj amod
+acl agent pobj compound
+relcl prep pobj
+nsubj conj prep pobj
+nsubj prep prep pobj
+prep pobj compound
+compound
+prep pobj
+nsubj dobj
+agent xcomp pobj dobj
+acl agent pobj
+dobj prep pobj
+dobj prep pobj
+nsubjpass agent pobj
+relcl prep pobj
+nsubjpass prep pobj
+nsubj dobj
+nsubj prep pobj
+nsubjpass prep pobj
+nsubjpass prep pobj
+nsubjpass prep pobj
+compound
+nsubjpass prep pobj
+nsubj prep pobj
+nsubj prep prep pobj
+prep pobj
+amod nsubj prep pobj prep pobj
+prep pobj
+nsubjpass agent pobj
+nsubj prep pobj compound
+nsubj prep pobj
+nsubj dobj
+nsubj dobj
+nsubj advmod prep pobj
+dobj xcomp prep pobj
+acl prep pobj
+nsubj prep pobj
+prep pobj
+dobj dep dobj
+conj prep pobj compound
+prep pobj
+relcl prep pobj
+prep pobj
+acl agent pobj
+acl agent pobj
+nsubjpass prep pobj
+nsubj dobj
+prep pobj
+nsubjpass agent pobj amod
+nsubjpass agent pobj
+nsubjpass prep pobj compound
+nsubjpass prep pobj
+dobj prep pobj
+nsubj dobj
+prep pobj
+amod prep pcomp dobj
+nsubjpass prep pobj
+nsubj prep pobj
+prep pobj
+nsubjpass prep pobj
+nsubj prep pobj
+nsubj prep pobj
+prep pobj
+nsubj prep pobj
+dobj prep pcomp
+nsubj prep pobj
+nsubj prep pobj
+nsubj attr prep pobj prep pobj nmod
+prep pobj
+nsubjpass dobj relcl dobj acl prep pobj
+prep pobj
+nsubj prep pobj
+nsubj prep pobj compound
+amod nsubj attr prep pobj
+nsubj dobj
+prep prep pobj pobj
+nsubjpass agent pobj
+prep pobj
+prep pobj
+nsubj dobj acl dobj
+nsubjpass prep pobj
+dobj prep pobj
+prep pobj
+nsubj prep pobj
+dobj conj prep pobj
+prep pobj nsubj attr
+compound
+nsubjpass prep pobj
+compound
+nsubj dobj
+nsubj prep pobj
+prep pobj nsubj prep pobj
+prep pobj
+prep pobj
+nsubjpass nsubjpass
+nsubj prep pobj
+compound
+nsubj prep pobj
+prep pobj
+acl prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+nsubj dobj
+prep pobj
+prep pobj compound
+nsubj prep pobj
+conj prep pobj
+dobj prep pobj
+nsubj prep pobj
+prep pobj compound compound
+compound
+conj
+conj amod prep pobj
+nsubjpass prep pobj compound
+relcl dobj
+nsubjpass prep pobj acl
+acl prep pobj
+nsubj advmod prep pobj
+relcl dobj
+nsubj dobj
+prep pobj prep pobj
+nsubjpass ccomp aux
+nsubj prep pobj
+nsubj prep pobj compound
+nsubj prep pobj
+prep pobj
+nsubj xcomp prep pobj
+prep pobj
+nsubj xcomp prep pobj
+prep pobj
+nsubj prep pobj
+conj nsubjpass prep pobj amod
+prep pobj
+prep pobj
+pobj prep dobj prep pobj
+nsubj dobj prep pobj
+prep prep pobj pobj
+nsubj prep pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj
+prep pobj nsubj attr
+prep pobj
+dobj dobj acl dobj
+prep pobj acl prep pobj amod
+prep pobj
+acl agent pobj
+compound nsubj prep pobj
+prep pobj
+nsubj prep pobj compound nmod
+prep pobj
+nsubj attr relcl dobj
+prep pobj
+nsubjpass prep pobj
+nsubj dobj
+prep pobj nmod
+acl agent pobj
+dobj prep pobj
+prep pobj
+acl dobj
+prep pobj
+dobj prep pobj amod
+acl prep pobj
+dobj prep prep pobj pcomp
+nsubj dobj
+nsubj dobj prep pobj
+nsubj acomp dobj
+dobj prep pobj
+amod prep pobj
+nsubjpass prep pobj prep pobj
+nsubj prep pobj
+prep pobj compound
+nsubj dobj
+nsubjpass prep pobj compound
+nsubj prep pobj
+compound nsubjpass prep pobj
+nsubjpass agent pobj
+prep pobj
+nsubj dobj
+prep pobj
+relcl dobj prep pobj
+acl prep pobj
+prep pobj
+nsubj dobj
+acl dobj
+dobj prep pobj amod
+nsubj prep pobj
+nsubjpass prep pobj
+nsubj dobj amod
+dobj xcomp prep pobj
+dobj prep pobj compound
+amod prep pobj
+nsubj dobj
+prep pobj
+nsubjpass prep pobj
+prep relcl pobj advmod prep pobj
+acl agent pobj
+npadvmod amod
+nsubjpass prep pobj
+nsubj dobj
+acl prep pobj
+nsubjpass prep pobj
+compound
+acl agent pobj prep pobj
+prep pobj
+nsubj dobj
+nsubj dobj acl dobj compound
+prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+nsubj dobj
+acl nsubj
+prep pobj nsubj prep pobj
+acl dobj
+conj nsubj intj
+nsubj dobj
+acl agent pobj
+prep pobj prep pobj
+nsubj prep pobj
+nsubj attr acl agent pobj
+nsubj dobj
+nsubj ccomp
+prep pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj
+compound nsubj prep pobj
+compound nsubj dobj
+acl dobj
+nsubj prep pobj prep pobj
+prep pobj
+acl dobj
+compound
+nsubjpass prep pobj
+nsubj dobj
+nsubjpass xcomp dobj
+prep prep pobj pobj
+prep pobj amod
+prep pobj
+compound
+compound
+compound
+prep pobj nsubj prep prep pobj
+compound nsubj prep pobj
+amod nsubj prep pobj
+acl agent pobj
+prep pobj amod
+prep pobj
+compound nsubj prep pobj
+compound acl conj prep pobj
+nsubj prep pobj compound
+prep pobj
+acl dobj
+dobj prep pobj
+nsubjpass prep pobj
+appos compound
+prep pobj
+prep pobj
+prep pobj
+conj dobj csubj dobj
+relcl prep pobj
+prep pobj relcl agent pobj amod nsubj dobj compound
+amod prep pobj
+acl agent pobj
+nsubj dobj
+nsubj prep pobj
+prep pobj compound
+nsubj prep pobj
+prep pobj
+prep pobj
+relcl prep pobj
+nsubj attr prep pobj
+nsubj dobj
+nsubj prep pobj
+nsubjpass prep pobj
+nsubjpass agent pobj amod
+acl dobj
+relcl dobj
+nsubj dobj
+prep pobj nsubj dobj
+prep pobj
+dobj ccomp prep pobj
+amod dobj
+dobj prep pobj
+prep pobj
+prep pobj compound
+relcl agent pobj
+nsubj dobj
+prep pobj compound
+nsubjpass prep pobj
+prep pobj compound
+nsubj dobj compound
+nsubj dobj prep pobj
+nsubjpass prep pobj
+acl agent pobj
+nsubj dobj
+prep pobj
+dobj prep pobj
+dobj prep pobj amod
+nsubj dobj
+nsubj prep pobj
+prep pobj
+nsubj advmod prep pobj
+nsubj attr prep pobj
+nsubjpass prep pobj
+dobj prep pobj npadvmod amod
+prep pobj
+amod nsubj dobj
+nsubj dobj
+nsubjpass agent pobj
+nsubj prep pobj
+prep acl pobj agent pobj
+dobj prep pobj
+dobj prep pobj
+prep pobj
+acl prep pobj
+compound prep pobj
+pobj prep prep pobj
+dobj prep pobj
+nsubj dobj
+acl agent pobj compound nsubj nsubj
+acl agent pobj
+nsubjpass prep pobj
+nsubj prep pobj prep pobj poss
+nmod
+compound relcl prep pobj
+prep pobj
+dobj prep pobj
+conj acl prep pobj conj
+ccomp prep nsubj pcomp prep pobj
+acl agent pobj compound
+relcl dobj prep pobj
+compound relcl prep pobj
+compound
+nsubj dobj
+nsubjpass prep pobj acl dobj
+nsubj dobj amod
+acl dobj
+nsubj dobj
+nsubj prep pobj compound
+nsubj prep pobj
+prep pobj nsubj attr
+compound
+relcl dobj
+nsubj dobj
+nsubj advcl dobj
+dobj prep pobj
+dobj prep pobj
+prep pobj nsubjpass prep pobj
+nsubj prep pobj
+prep pobj
+prep pobj compound compound
+nsubj advcl dobj
+prep pobj
+nsubj prep pobj
+dobj dative pobj
+nsubj dobj
+prep pobj
+prep pobj
+nsubj dobj prep pobj
+nsubj dobj prep pobj
+relcl prep pobj
+prep pobj
+prep pobj
+prep pobj
+compound
+nsubjpass agent pobj
+nsubjpass agent pobj
+nsubj prep pobj
+acl prep pobj
+nsubjpass advmod
+nsubj prep pobj
+prep pobj
+relcl dobj compound
+nsubj attr prep pobj
+prep pobj
+compound
+prep pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj
+nsubjpass prep pobj prep pobj
+nsubj prep pobj
+nsubj dobj
+prep pobj nsubj dobj
+nsubj dobj prep pobj
+prep pobj
+acl prep pobj
+compound nsubjpass prep pobj compound
+nsubjpass prep pobj prep pobj
+nsubj dobj
+prep pobj
+compound
+nsubj prep prep pobj
+prep pobj
+pobj prep pobj prep dobj
+nsubj dobj
+prep pobj
+nsubj prep pobj
+prep pobj nsubj attr
+pobj prep dobj
+dobj prep pobj
+nsubj dobj conj
+acl dobj prep pobj
+nsubj prep pobj
+nsubj dobj
+dobj prep pobj
+prep pobj
+compound nsubjpass prep pobj
+prep pobj
+acl prep pobj
+nsubjpass prep pobj amod
+nsubjpass agent pobj compound
+nsubj conj
+nsubjpass agent pobj
+dobj prep pobj
+nsubj dobj
+dobj prep pobj
+relcl dobj
+nsubj dobj
+prep pobj
+nsubj acomp prep pcomp prep pobj
+nsubj prep pobj
+nsubj dobj
+nsubjpass agent pobj
+dobj prep pobj
+prep pcomp dobj
+compound dobj
+prep pobj prep pobj
+relcl dobj
+nsubj dobj
+prep pobj
+prep pobj
+prep pobj
+acl agent pobj nmod
+prep pobj
+nsubjpass prep pobj
+compound
+nsubj dobj
+nsubjpass prep pobj
+nsubj dobj
+compound prep pobj
+nsubjpass prep pobj
+prep pobj
+advmod conj dobj
+nsubj prep pobj
+nsubj prep pobj
+nsubjpass prep prep pobj dobj conj prep pobj
+prep pobj compound
+nsubjpass prep pobj compound
+acl agent pobj
+acl prep pobj
+prep pobj
+nsubjpass prep pobj
+compound
+nsubj prep pobj
+nsubj dobj amod
+prep pobj
+dobj prep pobj
+acl dobj
+nsubj prep pobj
+prep pobj
+nsubj attr prep pobj
+prep pobj
+prep pobj nsubjpass prep pobj amod
+nsubjpass prep pobj prep pobj
+prep pobj
+compound nsubj prep pobj compound
+nsubj acomp prep pobj
+compound
+compound
+nsubj dobj
+amod
+amod nsubj prep pobj amod
+nsubjpass prep pobj
+compound
+compound
+compound
+prep pobj
+nsubjpass agent pobj
+prep pobj
+prep pobj
+prep pobj
+dobj dobj
+nsubj dobj
+nsubjpass prep pobj
+dobj prep pobj
+prep pobj
+nsubj prep pobj
+prep pobj
+prep pobj compound
+compound
+nsubjpass agent pobj
+nsubjpass prep pobj compound
+nsubj prep pobj
+prep pobj
+pobj pobj
+nsubj prep pobj
+
+prep pobj
+prep pobj
+dobj prep pobj compound
+prep pobj prep pobj
+prep ccomp pobj nsubj
+nsubj dobj
+nsubj prep pobj
+nsubjpass prep pobj
+prep pobj
+nsubjpass agent pobj prep pobj compound compound
+nsubj prep pobj
+nsubj dobj
+nsubj prep pobj
+prep pobj
+compound nsubj prep pcomp prep pobj
+prep pobj
+nsubj prep pobj
+nsubj prep pobj
+prep pobj
+nsubj prep pobj
+dobj prep conj pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj
+dobj prep pobj
+prep pobj
+nsubj dobj prep pobj
+nsubj dobj conj
+nsubjpass agent pobj amod
+nsubj prep pobj
+amod nsubjpass agent pobj conj
+nsubjpass prep pobj
+prep pobj compound
+nsubj dobj
+dobj prep pobj
+nsubj prep pobj amod
+nsubj attr prep pobj
+nsubj prep pobj prep pobj
+nsubj dobj prep pobj prep pobj
+nsubjpass prep pobj
+prep pobj
+nsubj dobj prep pobj amod
+prep pobj
+prep advcl pobj prep pobj
+acl agent pobj
+nsubjpass agent pobj
+dobj prep pobj
+compound
+prep pobj nsubjpass agent pobj
+acl dobj
+nsubj attr prep pobj amod
+nsubjpass prep pobj
+prep pobj
+prep pobj
+prep pobj
+acl dobj
+nsubjpass prep pobj compound
+nsubjpass prep pobj intj
+compound
+prep pobj
+dobj prep pobj
+prep pobj compound
+acl prep pobj
+nsubjpass prep pobj compound
+prep pobj
+prep pobj compound
+nsubj prep pobj
+prep pobj
+nsubj dobj
+prep pobj
+relcl agent pobj prep pobj
+conj prep pobj
+dobj prep pobj
+nsubj prep pobj
+nsubj prep pobj
+compound acl dobj
+nsubj dobj prep pobj
+prep pobj compound
+nsubj attr prep pobj
+nsubjpass prep pobj compound
+nsubj prep pobj
+nsubjpass prep pobj
+prep pobj
+acl prep pobj
+nsubjpass prep pobj
+prep pobj
+nsubjpass prep pobj
+conj nsubj dobj
+nsubj attr prep pobj
+nsubj dobj
+prep pobj nsubj dobj
+nsubj prep pobj
+nsubj attr prep pobj
+nsubj prep pobj
+dobj prep pobj
+nsubj prep pobj
+npadvmod amod
+nsubjpass prep pobj
+nsubj prep pobj
+nsubj prep pobj
+amod prep pobj
+prep pobj
+nsubj advcl dobj
+acl agent pobj
+nsubjpass prep pobj
+acl agent pobj
+nsubj prep pobj
+compound
+nsubj dobj
+nsubjpass prep pobj
+prep pcomp dobj
+acl agent pobj
+nsubj dobj
+compound nsubjpass agent pobj
+nsubj dobj
+amod prep pobj
+nsubjpass prep pobj
+prep pobj nsubjpass prep pobj
+nsubj attr prep pobj
+nsubj attr prep pobj
+compound prep pobj compound
+nsubjpass prep pobj
+prep pobj
+acl prep pobj
+relcl dobj
+prep pobj
+dobj prep pobj
+nsubj dobj
+nsubj prep pobj prep pobj
+nsubjpass agent pobj conj
+prep pobj
+prep pobj
+nsubj prep pobj
+nsubj prep pobj
+acl prep pobj amod
+prep pobj
+prep pobj
+nsubj dobj
+relcl prep pobj
+acl agent pobj
+prep pobj
+advmod dobj
+prep pobj nsubj
+nsubj dobj
+prep pobj
+nsubj dobj prep pobj conj
+prep pobj
+dobj prep compound pobj compound
+prep pobj
+acl prep pobj
+relcl conj dobj
+dobj prep pobj prep pobj
+nsubj dobj
+nsubj dobj
+nsubjpass xcomp dobj
+nsubj prep pobj
+nsubj attr prep pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj
+prep pobj
+prep pobj advcl dobj
+dobj prep pobj
+nsubjpass dative pobj
+acl dobj
+nsubj dobj
+nsubj dobj
+prep pobj
+nsubj dobj compound
+prep pobj
+acl prep pcomp dobj
+nsubj prep pobj compound
+nsubj dobj
+dobj prep pobj
+dobj prep pobj
+nsubj attr prep pobj prep pobj
+compound
+nsubjpass agent pobj
+dobj prep pobj
+relcl agent pobj
+nsubj dobj prep pobj
+nsubj prep pobj
+prep pobj
+
+nsubj dobj conj
+nsubj prep pobj
+prep pobj
+nsubj dobj
+compound prep pobj
+nsubj prep pobj prep pobj
+prep pobj
+nsubj dobj acl dobj
+dobj prep pobj
+compound prep pobj
+prep pobj
+acl agent pobj
+conj nsubjpass prep pobj
+prep pobj nsubj dobj
+dobj prep pobj
+prep pobj
+relcl dobj
+dobj xcomp dobj
+prep pobj acl agent pobj
+nsubjpass agent pobj prep pobj prep pobj amod
+nsubjpass agent pobj
+nsubjpass prep pobj
+acl prep pobj compound
+acl agent pobj
+prep pobj nsubj prep pobj nmod
+nsubjpass prep pobj
+nsubj dobj
+prep prep pobj pobj
+nsubj prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+nsubj prep pobj compound
+nsubjpass prep pobj
+nsubj dobj prep pobj
+prep pobj compound
+nsubj compound compound
+nsubj dobj
+nsubj conj dobj
+nsubj dobj
+prep pobj
+nsubj prep pobj conj
+nsubj dobj
+nsubjpass prep pobj prep pobj
+nsubj dobj
+nsubj dobj
+nsubj dobj
+nsubj dobj
+nsubj prep pobj
+dobj prep pobj
+nsubj dobj
+prep pobj
+conj nsubj prep pcomp
+nsubj prep pobj
+amod nsubj advcl agent pobj
+prep pobj compound
+compound
+prep pobj
+nsubjpass prep pobj
+nsubj dobj
+prep pobj
+compound
+dobj prep pobj
+nsubj prep pobj
+prep pobj nsubj prep pobj
+compound nsubjpass xcomp dobj prep pobj
+prep pobj
+prep pobj amod
+prep prep pobj pobj
+prep pobj
+nsubjpass prep pobj
+prep pobj
+prep pobj
+dobj prep pobj amod
+nsubj attr acl prep pobj amod
+nsubj dobj
+prep pobj
+nsubj dobj
+nsubj prep pobj compound
+compound
+prep pobj
+prep pobj
+nsubjpass prep pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj
+nsubj prep pobj conj
+nsubj prep pobj
+nsubj dobj
+prep pcomp dobj
+nsubj dobj conj
+dobj prep pobj
+nsubj prep pobj prep pobj
+nsubj prep pobj
+acl agent pobj
+dobj prep pobj
+acl agent pobj
+prep pobj prep pobj nmod
+dobj prep pobj
+prep pobj compound compound nsubj dobj
+nsubj attr prep pobj
+nsubj prep pobj prep pobj
+compound compound
+nsubj dobj
+nsubj prep pobj
+nsubj prep pobj
+prep pobj
+nsubjpass agent pobj amod
+relcl dobj
+compound
+prep pobj nmod
+nsubjpass prep prep pobj
+prep pobj
+nsubj prep pobj
+nsubj dobj prep pobj nmod nmod
+prep pobj
+prep pobj
+dobj prep pobj
+dobj prep pobj
+dobj prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+prep pobj
+compound
+prep pobj
+dobj prep pobj
+prep pobj
+nsubj prep pobj
+nsubj prep pobj
+compound prep pobj
+nsubj dobj compound
+compound dobj
+prep pobj nsubjpass agent pobj
+nsubj dobj
+prep pobj nsubj xcomp dobj amod
+prep pobj
+prep pobj
+compound
+prep pobj compound
+acl prep pobj
+nsubj dobj
+prep pobj
+nsubjpass prep pobj
+nsubj prep pobj
+acl prep pobj
+prep pobj
+dobj prep pobj
+nsubjpass prep pobj
+nsubj dobj
+conj dobj nsubjpass agent pobj
+nsubj xcomp dobj
+prep pobj nsubj prep pobj compound
+nsubj prep pobj
+acl agent pobj
+nsubj prep pobj compound nmod
+prep pobj
+nsubjpass prep pobj
+nsubjpass agent pobj
+compound prep pobj
+prep pobj compound
+compound
+nsubj dobj
+nsubj advmod prep pobj
+acl prep pobj
+nsubj prep pobj
+nsubj prep pobj
+relcl conj dobj
+prep pobj
+dobj prep pobj
+nsubj prep pobj
+amod nsubj prep pobj
+acl prep pobj
+compound prep pobj
+nsubjpass prep pobj
+prep pobj
+prep conj pobj
+prep pobj
+relcl prep pobj
+nsubjpass prep pobj compound
+nsubj prep pobj
+prep pobj
+nsubj dobj
+prep pobj nsubjpass agent pobj
+nsubjpass agent pobj
+nsubj prep pobj
+compound prep pcomp prep pobj
+compound
+prep pobj
+nsubj attr prep pobj
+dobj prep pobj prep pobj
+nsubj conj prep pobj
+dobj prep pobj
+nsubjpass agent pobj
+acl agent pobj conj compound
+nsubj dobj amod
+nsubj dobj
+nsubj prep pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj
+conj relcl xcomp prep pobj amod
+conj conj compound
+appos
+nsubj dobj
+nsubj prep pobj
+nsubj acomp prep pobj
+compound
+compound nsubj acomp prep pobj
+dobj prep pobj
+prep pobj
+nsubj dobj acl advcl dobj
+nsubjpass prep pobj
+nsubj oprd prep pobj
+nsubj prep pobj
+nsubj prep pobj
+nsubj dobj
+nsubjpass prep pobj compound
+prep pobj
+amod prep pobj
+prep pobj
+nsubj prep pobj
+relcl agent pobj
+nsubj prep pobj
+compound
+dobj prep pobj
+nsubj ccomp nsubj
+nsubjpass prep pobj prep pobj prep pobj
+prep pobj
+prep pobj
+compound dobj prep pobj
+prep pobj
+acl prep pobj
+nsubj prep pobj
+dobj prep pobj
+prep pobj
+prep pobj
+nsubj attr prep pobj
+acl ccomp nsubj
+amod prep pobj amod
+nsubj dobj
+nsubj dobj
+prep pobj
+prep pobj nsubjpass prep pobj prep pobj
+nsubjpass agent pobj
+nsubj dobj
+relcl agent pobj
+nsubj xcomp
+nsubjpass prep pobj
+nsubjpass prep pobj
+nsubj dobj
+relcl prep pobj
+nsubjpass agent pobj prep pobj
+
+nsubjpass prep pobj
+nsubj dobj
+npadvmod amod
+compound
+nsubj prep pobj
+relcl dobj
+nsubjpass prep pobj prep pobj
+amod
+nsubj prep pobj
+nsubj prep pobj
+nsubj oprd
+compound
+compound
+nsubj dobj prep pobj prep pobj
+relcl agent pobj
+compound
+amod
+nsubj prep pobj
+acl dobj
+dobj prep pobj
+nsubjpass prep pobj
+nsubjpass prep pobj
+acl agent pobj
+prep pobj conj nsubj dobj relcl dobj
+compound nsubj dobj
+prep pobj
+amod prep pobj
+compound
+nsubj oprd prep pobj
+nsubj dobj
+dobj advcl dobj
+compound
+nsubj dobj amod
+prep pobj prep pobj compound
+prep pobj
+relcl prep pobj
+dobj prep pobj
+nsubj prep pcomp prep pobj appos
+prep pobj
+prep pobj
+dobj dobj
+nsubj attr prep pobj
+nsubj dobj
+nsubj prep pobj
+nsubj prep pobj
+nsubjpass prep pobj compound
+nsubjpass prep pobj
+prep pobj
+compound
+dobj prep pobj
+acl dobj
+compound
+nsubj dobj
+acl prep pobj
+nsubjpass agent pobj amod
+nsubj agent pobj
+nsubj prep pobj acl
+nsubjpass prep pobj
+nsubj punct
+dobj prep pobj
+nsubj prep pobj
+prep pobj
+nsubj auxpass prep pobj
+nsubj dobj
+nsubj prep pobj prep pobj
+nsubj dobj compound
+prep pobj
+relcl prep pobj
+acl prep pobj compound
+prep pobj
+acl agent pobj
+prep pobj
+nsubj dobj
+prep pobj
+nsubj xcomp prep pobj
+compound
+prep pobj nsubjpass prep pobj
+dobj prep compound pobj advmod
+acl agent pobj conj
+prep pobj nmod
+prep pobj nsubj prep pobj
+nsubj prep pobj
+prep pobj
+dobj prep pobj
+nsubjpass agent pobj
+acl agent pobj
+compound
+nsubj dobj
+prep pobj
+acl agent pobj
+nsubjpass prep pobj
+nsubjpass prep pobj
+nsubjpass prep pobj
+nsubjpass prep pobj compound
+nsubj attr prep pobj
+prep prep pobj pobj
+nsubj dobj
+dobj prep pobj amod nsubj ccomp nsubj
+prep pobj
+prep pobj
+conj prep pobj
+relcl dobj
+nsubj dobj
+prep pobj
+prep pobj
+nsubj prep pobj
+nsubj prep pobj
+nsubj ccomp dobj prep pobj
+nsubj prep pobj
+nsubjpass agent pobj
+dobj conj
+nsubj acomp prep pobj
+dobj prep pobj compound
+compound
+nsubj dobj
+nsubj dobj
+nsubjpass prep pobj
+prep pobj
+acl nsubj dobj
+compound acl prep pobj
+nsubjpass prep pobj
+nsubj prep pobj
+nsubj prep pobj
+nsubj conj pobj
+relcl dobj
+nsubjpass prep pobj
+dobj prep pobj
+nsubj prep pobj
+prep pobj nsubj prep pobj
+prep pobj
+acl prep pobj
+nsubj prep pobj
+nsubj xcomp prep pobj
+prep pobj
+prep pobj
+acl prep pobj
+nsubjpass prep pobj
+prep pobj
+prep pobj
+nsubjpass agent pobj compound
+nsubj dobj
+relcl dobj compound
+prep pobj
+prep pobj
+
+acl prep pcomp dobj
+nsubj dobj prep pobj
+prep pobj compound
+nsubj nsubjpass prep pobj
+nsubjpass prep pobj
+prep pobj
+nsubjpass prep pobj
+nsubjpass prep pobj prep pobj
+pcomp dobj amod prep prep pobj
+nsubj prep pobj
+dobj dobj
+pobj prep dobj
+prep pobj
+acl dobj compound
+nsubj prep pobj
+dobj
+acl prep pobj
+nsubj dobj
+dobj prep pobj
+dobj prep pobj
+prep pobj compound
+prep pobj
+nsubj advcl dobj
+nsubjpass prep pobj
+nsubj prep pobj
+nmod
+relcl prep pobj
+
+acl agent pobj
+dobj prep pobj compound
+prep pobj
+prep pobj compound
+acl prep pobj
+acl dobj compound
+nsubjpass agent pobj
+nsubj prep pobj
+prep pobj
+nsubj dobj
+nsubjpass prep pobj
+nsubjpass prep pcomp dobj
+prep pobj
+nsubj acomp prep pobj amod
+nsubjpass prep pobj
+nsubjpass prep pobj
+prep pobj
+prep pobj
+acl prep pobj prep pobj
+nsubj nsubj prep pobj
+nsubj dobj
+
+prep agent pobj pobj
+prep pobj nsubj attr
+nmod nsubj amod nsubj dobj conj
+nsubjpass prep pobj
+nsubj prep pobj
+nsubj dobj
+dobj prep pobj
+prep pobj relcl dobj
+nsubj dobj compound
+prep pobj
+nsubjpass prep pobj
+nsubjpass prep pobj amod
+prep pobj
+prep pobj
+nsubj dobj prep pobj
+nsubj dobj
+amod
+prep pcomp dobj
+dobj prep pobj
+nsubj dobj
+prep pobj
+prep pobj nsubj dobj prep pobj
+prep pcomp
+dobj prep pobj
+compound prep pobj
+prep pobj
+nsubjpass agent pobj
+prep pobj
+prep pobj
+amod prep pobj
+nsubj prep pcomp dobj
+nsubj prep pcomp npadvmod
+prep prep pobj pobj
+prep pobj
+nsubj acomp prep pobj
+relcl dobj prep pobj
+nsubjpass prep pobj
+prep pobj compound prep nsubj
+nsubj attr prep pobj
+prep pobj
+nsubj prep pobj
+compound
+compound prep pobj
+nsubj dobj
+prep pcomp nsubj
+prep pobj
+prep pobj nsubj prep pobj
+nsubj dobj
+nsubjpass prep pobj
+nmod compound
+prep pobj
+compound
+nsubjpass prep pobj
+nsubj dobj nsubj
+dobj prep pobj
+dobj prep pobj compound
+prep pobj compound
+compound
+nsubjpass prep pobj
+prep pobj prep pobj nsubj prep pobj compound
+prep prep pobj pobj
+prep pobj
+nsubj prep pobj
+nsubj prep pobj
+nsubj prep pobj
+nsubj prep pobj
+prep pobj
+conj prep pobj nmod nmod
+prep pobj
+acl agent pobj
+nsubj prep pobj
+prep pobj
+nsubjpass agent pobj
+nsubjpass agent pobj compound
+relcl dobj
+attr npadvmod prep pobj relcl nsubjpass
+prep pobj
+nsubj prep pobj prep pobj
+nsubjpass prep pobj
+compound
+dobj prep compound pobj
+nsubj prep pobj compound
+prep pcomp dobj nsubjpass prep pobj
+prep pobj
+conj
+prep pobj
+prep pobj compound
+nsubjpass xcomp prep pobj amod
+acl agent pobj
+prep pobj
+nsubjpass prep pobj
+prep pobj
+nsubj dobj
+prep pobj
+acl prep pobj
+relcl prep pobj
+nsubj dobj prep pobj
+nsubj dobj
+nsubjpass agent pobj
+compound acl dobj
+nsubjpass prep pobj
+nsubj prep pobj
+compound
+prep pobj
+prep pobj
+advcl advmod prep pobj advcl nsubjpass
+prep pobj compound
+nsubj prep pobj
+relcl nsubjpass dative pobj
+acl agent pobj
+prep pobj compound
+nsubjpass prep pobj compound
+nsubj prep pobj
+nsubj dobj
+prep pobj conj
+prep pobj
+nsubj prep pobj
+prep pobj
+compound
+nsubjpass prep pobj
+conj nmod
+nsubj prep pobj
+prep pobj
+nsubj attr prep pobj prep pobj conj prep pobj
+nsubjpass agent pobj
+nsubjpass prep pobj
+nsubjpass prep prep pobj prep pobj
+conj relcl compound compound
+prep pobj
+compound nsubj dobj prep pobj
+pobj prep dobj
+prep pobj
+compound
+prep pobj conj
+prep pobj
+nsubj prep pobj
+nsubj advmod prep pobj
+nsubj dobj
+prep ccomp pobj nsubj
+prep pobj nsubj dobj
+conj dobj nsubj dobj
+relcl dobj
+prep pobj
+nsubjpass prep pobj
+compound nsubj attr prep pobj prep pobj
+prep prep pobj pobj
+nsubj prep pcomp dobj
+acl agent pobj
+nsubj dobj
+nsubjpass prep pobj
+nsubj dobj
+prep pobj
+nsubj dobj conj
+acl nsubj
+prep pobj nsubj dobj
+nsubj dobj prep pobj
+nsubj prep pobj
+acl dobj
+nsubj advmod prep pobj
+acl prep pobj
+prep pobj prep pobj compound
+nsubj dobj
+relcl dobj
+dobj prep pobj
+prep acl pobj compound agent pobj
+acl agent pobj
+nsubjpass agent pobj
+compound
+nsubj dobj
+nsubj attr prep pobj
+prep pobj
+prep pobj
+pobj prep attr prep pobj
+prep pobj
+nsubj dobj
+nsubj dobj prep pobj
+nsubj attr prep pobj
+nsubj prep prep pobj
+prep pobj
+relcl dobj nsubj prep pobj compound
+nsubj attr prep pobj
+prep pobj
+prep pobj
+acl agent pobj
+nsubjpass prep pobj
+nsubj prep pobj
+acl dobj
+nsubj npadvmod
+nsubj dobj prep pobj
+acl dobj
+prep pobj compound
+nsubjpass prep pobj
+acl prep prep pobj
+nsubj dobj acl dobj
+nsubjpass agent pobj amod amod
+nsubjpass prep pobj nmod
+prep pobj
+nsubjpass prep pobj
+compound
+nsubjpass prep pobj amod
+dobj prep pobj
+prep pobj amod
+nsubj dobj
+nsubj dobj
+prep pobj
+amod nsubjpass agent pobj amod
+nsubjpass prep pobj
+nsubj prep pobj
+amod prep pobj
+nsubj dobj
+nsubj dobj
+nsubjpass prep pobj
+nsubjpass prep pobj
+prep pobj relcl xcomp dobj amod
+nsubjpass prep pobj
+prep pobj
+compound
+nsubjpass prep pobj
+prep pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj
+acl agent pobj
+nsubjpass prep pobj
+amod prep pobj amod
+nsubj dobj
+prep pobj
+dobj prep pobj
+compound prep pobj
+prep pobj
+nsubjpass prep pobj
+nsubj prep pobj
+dobj prep pobj
+acl dobj
+nsubjpass prep pobj
+nsubj prep pobj
+prep pobj
+nsubj dobj
+compound
+prep pobj
+dobj prep compound pobj
+nsubj prep pobj
+intj agent pobj prep ccomp nsubj
+prep pobj
+relcl agent pobj prep pobj
+prep pobj nsubj prep pobj
+nmod
+acl prep pobj prep pobj
+amod
+nsubj prep pobj
+prep pobj
+prep pobj
+prep pobj
+nsubjpass agent pobj
+prep relcl pobj attr prep pobj prep pobj
+prep pobj nsubjpass prep pobj
+acl dobj
+nsubj xcomp advmod prep pobj
+prep advcl pobj nsubj
+prep pobj
+nsubj prep pobj
+nmod nsubj dobj cc pobj
+nsubj attr relcl nsubj
+prep pobj compound
+nsubjpass prep pobj
+compound nsubj xcomp prep pobj
+prep pobj
+nsubjpass agent pobj
+nsubjpass agent pobj
+nsubj prep pobj
+nsubj dobj
+prep pobj
+prep pobj
+acl agent pobj
+prep pobj
+nsubj prep pobj
+prep pobj
+nsubj dobj
+dobj prep pobj
+prep pobj
+dobj prep pobj
+dobj prep prep pobj pobj
+acl prep pobj
+compound
+nsubj acomp prep pobj
+dobj prep prep pobj pobj
+nsubjpass agent pobj compound
+relcl prep pobj prep pobj
+intj prep dobj
+nsubj prep pobj
+dobj prep compound pobj
+prep pobj
+prep pobj
+prep prep pobj pobj
+nsubjpass prep pobj acl agent pobj
+dobj dobj prep pobj relcl nsubj
+compound nsubj prep pobj compound
+prep pobj
+dobj dative pobj
+nsubj prep pobj
+nsubj attr prep pobj
+relcl agent pobj relcl dobj
+compound
+prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+prep pobj
+nsubjpass prep pobj
+dobj prep prep pobj pobj
+nsubj prep pcomp dobj
+pobj prep dobj prep pobj
+dobj prep pobj
+prep pobj
+prep pobj
+nsubj dobj
+prep pobj
+prep pobj
+nsubj prep pobj
+nsubj xcomp dobj
+pobj prep prep pobj
+prep pobj
+nsubj prep pobj compound
+nsubj prep pobj
+nsubjpass prep pobj
+prep prep pobj pobj
+nsubjpass prep pobj compound
+acl agent pobj
+relcl dobj conj
+prep pobj prep pobj
+nsubj prep pobj
+prep pobj nsubj attr
+nsubj prep pobj
+compound acl agent pobj
+nsubj xcomp prep pobj
+nsubj prep pobj
+prep pobj
+prep acl pobj amod prep pobj amod compound compound
+npadvmod amod
+relcl prep pobj compound
+prep pobj
+prep pobj
+nsubjpass prep pobj
+prep oprd pobj
+prep pobj
+nsubjpass agent pcomp
+nmod nsubj dobj
+prep pobj
+compound
+prep pobj
+prep pobj
+prep pobj
+nsubj dobj
+prep pobj nsubj xcomp ccomp prep pobj
+nsubjpass prep pobj prep pobj
+nsubjpass prep pobj
+nsubj dobj prep pobj
+nsubjpass prep pobj
+pobj prep prep pobj
+nsubj prep pobj
+prep pobj
+dative appos advcl dobj
+dobj prep pobj
+prep pobj
+prep pobj
+dobj prep pobj
+amod prep pobj
+dobj prep pobj
+prep pobj
+nsubjpass prep pobj prep pobj
+acl prep pobj
+nsubj prep pobj
+nsubj prep pobj
+relcl prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+compound
+nsubj ccomp nsubjpass
+compound nsubjpass prep pobj nummod
+dobj prep pobj
+amod nsubjpass prep pobj
+nsubj dobj compound
+compound
+prep pobj acl prep pobj
+relcl prep pobj
+nsubj prep pobj
+compound prep pobj
+nsubj dobj
+nsubjpass prep pobj
+nsubj prep pobj
+nsubjpass dative pobj
+nsubjpass prep pobj prep pobj
+nsubj prep pobj
+nsubj dobj
+nsubjpass prep pobj
+dobj advcl dobj
+nsubj advcl dobj
+compound
+prep pobj
+prep pobj nsubj attr
+nsubj ccomp nsubjpass
+prep pobj
+prep pobj
+nsubj xcomp dobj
+compound nsubjpass prep pobj compound
+nsubj dobj
+prep pobj
+prep pobj
+nsubjpass prep pobj
+acl prep pobj
+prep pobj
+acl agent pobj
+prep pobj conj prep pobj
+prep pobj
+compound nsubjpass prep pobj
+nsubj prep pobj
+dobj prep pobj
+prep pobj prep pobj amod
+prep pobj
+compound nsubjpass prep pobj compound
+prt prep pobj nsubj dobj prep pobj
+prep agent pobj pobj
+dobj xcomp dobj
+prep pobj
+nsubjpass prep pobj
+dobj prep pobj
+nsubj prep pobj
+nsubj prep pobj
+relcl advcl dobj
+nsubjpass agent pobj
+dobj prep pobj
+prep pobj
+prep pobj
+prep pcomp npadvmod
+dobj dative pobj
+nsubj dobj
+nsubjpass prep pobj
+prep pobj
+prep pobj relcl agent pobj
+prep pobj
+dobj prep pobj
+nsubj prep pobj
+nsubjpass prep pobj compound
+dobj prep pobj amod
+prep pobj
+prep pobj relcl attr prep pobj
+dobj prep pobj
+dobj prep pobj
+nsubjpass prep pobj
+attr conj conj dobj
+relcl dobj
+prep pobj
+nsubj advcl dobj
+nsubj prep pobj
+nsubj prep pobj
+prep pobj
+acl prep pobj
+prep pobj
+prep pobj
+nsubj acomp prep pobj
+nsubj prep pobj compound
+amod
+nsubj prep pobj
+dobj prep pobj
+prep pcomp
+dobj prep pobj
+nsubjpass agent pobj
+acl agent pobj
+nsubjpass prep pobj
+amod nsubjpass prep pobj
+compound prep pobj compound
+nsubj prep pcomp nsubj
+dobj prep pobj
+conj nsubj compound
+nsubj prep pobj
+nsubj dep dobj
+prep pobj
+compound
+prep pobj
+dobj prep pobj
+prep pobj
+nsubjpass prep pobj
+dobj prep pobj
+nsubj prep pobj
+nsubj advcl dobj compound
+nsubjpass prep pobj
+nsubj prep pobj
+nsubj ccomp nsubj
+nsubj prep pobj compound
+nsubjpass prep pobj prep pobj
+
+nsubj prep pobj
+prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+prep pobj
+prep pobj
+compound prep pobj
+nsubj conj dobj
+prep pobj
+nsubj attr acl prep pobj
+nsubj prep pobj
+nsubjpass agent pobj
+dobj prep pobj amod
+nsubjpass prep pobj
+nsubj dobj compound
+nsubj attr relcl dobj
+dobj prep pobj
+prep pobj
+prep pobj
+acl prep pobj
+dobj prep pobj
+conj nsubj dobj conj amod
+nsubj prep pobj
+nsubj prep pcomp dobj
+nsubj dobj
+nsubj conj dobj
+amod
+nsubj dobj
+nsubj dobj
+nsubj prep pobj
+dobj prep pobj
+compound
+dobj prep pobj
+prep pobj
+nsubj prep pobj
+dobj prep pobj
+compound
+nsubj prep pobj prep pobj
+acl dobj
+prep pobj
+prep pobj
+nsubj dobj
+nsubjpass advcl prep pobj
+nsubj dobj
+nsubj attr prep pobj
+nsubj dobj prep pobj
+nsubj prep pobj
+acl agent pobj
+nsubj dobj
+nsubjpass prep pobj compound
+nsubj dobj
+compound
+nsubj dobj
+nsubj dobj
+prep pobj
+nsubj dobj
+nsubj prep pobj
+nsubj advmod prep pobj
+nsubj ccomp nsubj
+prep pobj
+nsubjpass agent pobj
+prep pobj
+prep pobj
+nsubj attr acl prep pobj
+nsubj prep pobj
+nsubj dobj
+prep pobj compound
+compound acl prep pobj
+nsubj dobj prep pobj
+nsubjpass agent pobj amod
+relcl dobj
+nsubj prep pobj
+nsubj ccomp nsubj
+nsubjpass prep pobj
+nsubj prep prep pobj
+nsubj dobj
+compound
+nsubj dobj
+nsubj attr prep pobj
+nsubj prep pcomp dobj
+nsubj dobj
+acl dobj
+compound
+nsubj dobj
+nsubj acomp xcomp prep pcomp xcomp
+prep pobj
+attr attr
+nsubj attr prep pobj
+nsubj dobj
+conj prep pobj
+acl dobj
+nsubj dobj
+prep pobj
+nsubjpass prep pobj
+prep pobj compound nsubj xcomp dobj
+nsubj dobj
+prep pobj
+relcl prep pobj
+nsubj attr prep pobj compound
+prep pobj
+nsubjpass prep pobj
+nsubj attr prep pobj
+nsubj prep pobj
+nsubjpass xcomp dobj
+prep pobj
+relcl advmod prep pobj
+nsubj acomp prep pobj
+nsubjpass prep pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj
+nsubj dobj prep pobj
+nsubjpass agent pobj
+dobj prep pobj
+prep prep pobj pobj
+nsubj dobj prep pobj prep pobj
+nsubj prep pobj
+nsubjpass agent pobj
+prep pobj
+nsubj prep pobj
+nsubj prep pobj
+acl prep pcomp
+nsubjpass prep pobj
+nsubj prep pobj amod
+prep pobj acl dobj
+nsubjpass prep pobj
+compound nsubj prep pobj amod
+prep pobj
+prep pobj
+nsubjpass prep pobj
+nsubj prep pobj
+nsubj dobj
+compound
+nsubjpass prep pobj
+prep pobj
+prep pobj
+nsubj prep pobj prep pobj
+nsubj prep pobj
+nsubj advcl dobj
+acl prep pobj amod
+acl oprd
+amod nsubj attr prep pobj
+dobj prep pobj
+prep pobj
+nsubjpass agent pobj
+nsubj dobj
+nsubj dobj
+prep pobj
+compound prep pcomp dobj
+prep pobj
+poss prep pobj
+nsubjpass prep pobj
+amod
+compound
+nsubjpass prep pobj
+relcl dobj
+prep pobj
+nsubjpass prep pobj
+prep pobj
+nsubj dobj
+prep pobj
+nsubj prep pobj
+nsubj prep pobj
+prep pobj conj
+dobj prep pobj
+relcl agent pobj
+nsubjpass prep pobj
+nsubj prep pobj
+prep pobj
+nsubj dobj
+nsubj prep pobj
+nsubj dobj
+nsubj xcomp dobj
+prep pobj
+prep pobj
+prep pobj nsubjpass prep pobj
+relcl prep pobj
+nsubjpass prep pobj
+prep pobj
+prep pobj
+nsubj prep pobj
+prep acl pobj agent pobj
+nsubj appos
+nsubj acomp prep pobj
+nsubj prep pobj
+prep pobj conj
+prep pobj
+prep pobj
+acl prep pobj
+dobj prep pobj
+nsubjpass prep pobj
+amod prep pobj
+nsubj dobj
+acl agent pobj
+nsubjpass prep pobj
+nsubj prep pobj
+relcl attr prep pobj
+nsubj prep pobj amod
+nsubjpass prep pobj
+compound
+acl dobj
+conj nsubj dobj
+nsubj dobj compound
+prep pobj
+prep pobj prep pobj amod
+compound
+nsubj prep pobj
+nsubj
+nsubj prep pobj
+nsubj dobj
+
+nsubj prep pobj
+prep pobj
+nsubj attr acl prep pobj
+acl agent pobj
+nsubjpass prep pobj amod
+prep pcomp
+nsubjpass conj prep pobj prep pobj
+compound
+nsubj prep pobj
+acl agent pobj
+nsubjpass prep pobj
+relcl prep pobj
+nsubj prep pobj
+prep pobj
+nsubj prep pobj
+nsubjpass prep pobj prep pobj
+acl prep pobj
+nsubj prep pobj amod
+prep pobj
+nsubjpass prep pobj nmod
+prep pobj
+nsubj prep pobj
+nsubj attr prep pobj nmod
+nsubjpass prep pobj
+nsubj xcomp prep pobj
+prep pobj compound
+dobj dep
+nsubjpass prep pobj
+nsubj advcl dobj
+prep pobj
+nsubj prep pobj
+prep pobj
+nsubj attr prep pobj prep pobj
+prep pobj
+prep pobj prep pobj nsubj attr
+prep pobj
+prep pobj
+prep pobj
+attr prep pobj
+prep pobj
+nsubj prep pobj
+nsubj attr prep pobj
+nsubjpass prep pobj
+prep pobj
+nsubj prep pobj
+dobj prep pobj
+prep pobj
+nsubj prep pobj amod
+nsubj dobj
+nsubj prep pobj compound
+nsubj dobj
+dobj prep pobj
+nsubjpass agent pobj
+nsubj prep pobj
+dobj prep pobj
+nsubj dobj prep pobj
+nsubjpass prep pobj
+prep pobj
+nsubj prep pobj
+prep pobj prep pobj nsubjpass nsubjpass
+nsubj advmod prep pobj
+nsubjpass prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+nsubjpass prep pobj
+prep pobj
+prep pobj
+acl dobj prep pobj
+nsubjpass agent pobj
+nsubj ccomp dobj acl dobj
+nsubj prep pobj
+prep pobj
+dobj prep pobj
+prep pobj
+intj det
+dobj prep pobj npadvmod amod
+nsubj attr prep pobj
+nsubj dobj prep pobj prep pobj
+nsubjpass prep pobj
+nsubjpass prep pobj
+nsubj acomp prep pobj
+dobj prep prep pobj
+prep pobj
+dobj prep pobj
+nsubj dobj
+prep pobj
+dobj prep pobj
+nsubj prep pobj
+nsubj dobj
+nsubj dobj
+prep pobj
+nsubj prep pobj
+nsubj prep pobj
+agent prep pobj pobj
+nsubj prep pobj
+prep pobj
+pobj prep nsubj
+amod nsubj dobj
+nsubj prep pobj
+prep pobj
+nsubjpass prep pobj
+prep pobj nsubj ccomp amod nsubj
+compound
+nsubj dobj
+nsubj dobj
+nsubj prep pobj amod
+nsubjpass agent pobj
+nsubj attr prep pobj relcl dobj conj
+nsubj prep pobj
+nsubj prep pobj
+nsubj dobj
+prep prep pobj prep pobj pobj prep pobj conj
+prep pobj
+prep pobj
+nsubj prep pobj
+prep pobj
+prep pobj
+nsubjpass prep pobj
+nsubj xcomp dobj
+compound prep pobj amod
+nsubjpass agent pobj
+nsubj prep pobj
+nsubj dobj
+nsubjpass prep pobj
+prep pobj
+prep pobj
+prep pobj
+nsubj advmod prep pobj
+prep pobj
+dobj prep pobj
+nsubjpass prep pcomp dobj
+relcl dobj
+prep pobj
+acl agent pobj
+compound
+prep pobj
+nsubj dobj
+dobj prep pobj
+nsubj advcl prep pobj
+nsubjpass dative pobj
+prep pobj amod
+relcl agent pobj
+dobj prep pobj compound
+prep pcomp prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+prep pobj nsubj prep pobj
+nsubjpass prep pobj
+nsubj prep pobj
+acl agent pobj
+prep conj pobj acl agent pobj amod
+nsubj prep pobj
+acl prep pobj
+acl dobj
+prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+prep pobj nsubj dobj
+nsubj dobj
+prep pobj
+dobj prep pobj
+nsubj dobj
+prep pobj
+nsubjpass prep pobj
+prep pobj
+prep pobj compound compound
+dobj prep pobj
+nsubj prep pobj
+nsubj prep pcomp dobj
+acl prep pobj
+nsubj prep pobj
+prep pobj nsubj ccomp
+nsubj advcl compound
+nsubj prep pobj compound
+prep pobj
+compound
+nsubj prep pobj
+nsubj prep pobj compound
+acl dobj
+nsubj attr acl agent pobj
+nsubj prep pobj compound
+nsubj dobj
+nsubj aux dobj amod
+dobj prep pobj
+nsubj dobj prep pobj
+nsubj dobj
+compound nsubj prep pobj
+dobj prep pobj
+nsubj dobj
+relcl dobj
+nsubjpass agent pobj
+dobj prep pobj amod
+relcl dobj
+compound
+dobj prep pobj
+prep pobj nsubjpass prep pobj
+nsubj attr prep pobj
+nsubjpass agent pobj
+dobj prep pobj
+prep pobj
+nsubjpass prep pobj
+nsubjpass prep pobj
+nsubj prep pobj
+dobj prep pobj
+relcl nsubj
+nsubjpass agent pobj
+acl agent pobj
+prep pobj
+prep pobj
+nsubj prep pobj
+acl dobj
+compound nsubj prep pobj
+prep pobj nsubjpass prep pobj compound
+nsubj dobj
+dobj advmod prep pobj
+relcl prep pobj
+nsubj auxpass prep pobj
+
+prep acl pobj dobj
+acl prep pobj compound
+nsubj dobj
+prep pobj advcl dobj
+nsubjpass prep pobj
+nsubj dobj
+prep pobj
+prep pobj
+nsubj dobj prep pobj
+prep pobj
+nsubj dobj
+nsubj dobj
+compound
+compound
+acl agent pobj
+dobj prep pobj compound
+prep pobj
+acl agent pobj
+nsubj prep pobj
+nsubj advmod prep pobj
+nsubjpass prep pobj
+prep pobj
+nsubj dobj
+nsubj attr
+acl prep pobj prep pobj
+dobj prep pobj
+nsubj dobj
+acl prep pobj
+nsubj prep pobj
+prep pobj acl agent pobj
+prep pobj conj
+prep pobj
+prep pobj
+relcl dobj
+acl agent pobj
+npadvmod amod
+nsubj prep pobj
+amod nsubjpass prep pobj amod
+dobj punct prep pobj
+acl dobj
+prep prep pobj pobj
+acl prep pobj compound compound
+prep pobj
+relcl dobj
+compound prep pobj
+dobj prep pobj
+nsubjpass prep pobj
+relcl prep pobj
+nsubj
+compound prep pobj
+pobj conj
+nsubjpass agent pobj amod
+prep pobj amod nsubj prep pobj nmod
+nsubjpass prep pobj
+prep pobj
+acl agent pobj
+nsubj dobj
+acl agent pobj
+nsubj dobj conj
+nsubj dobj acl dobj
+relcl dobj
+nsubjpass prep pobj
+nsubj dobj
+dobj prep pobj
+nsubj attr
+dobj prep pobj
+prep pobj
+prep prep pobj compound pobj
+dobj prep prep pobj pobj
+nsubj prep pobj
+dobj prep pobj
+intj det compound
+nsubj prep pobj
+prep pobj compound
+nsubjpass agent pobj prep pobj
+compound
+prep pobj
+relcl prep pobj
+nsubj ccomp amod prep pcomp prep pobj nsubj
+nsubj prep pobj
+nsubj xcomp dobj
+nsubjpass prep pobj
+prep pobj
+nsubj ccomp nsubj
+prep pobj
+dobj prep pobj
+prep pobj compound
+conj nsubj dobj
+prep pobj
+dobj advcl prep pobj
+compound conj
+pobj prep dobj
+prep pobj
+compound
+prep pobj
+nsubj prep pcomp conj prep pobj
+nsubjpass prep pobj
+prep pobj compound
+prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+nsubj dobj
+acl prep pobj
+nsubj dobj
+compound nsubj prep pobj
+prep prep pobj pobj
+prep pobj
+nsubj dobj
+dobj prep pobj amod
+compound
+nsubj dobj prep pobj
+relcl prep pobj
+nsubj ccomp dobj
+nsubj dobj
+dobj prep prep pobj pobj
+nsubj dobj
+nsubjpass prep pobj
+dobj prep pobj
+dobj prep pobj
+dobj prep pobj
+nsubj prep pobj
+prep pobj
+acl nsubj
+dobj prep pobj
+nsubj dobj
+nsubjpass prep pobj
+nsubj dobj conj
+prep pobj prep pobj
+nsubj prep pobj
+nsubj prep pobj
+prep pobj nsubjpass prep pobj
+prep pobj
+
+nsubjpass agent pobj
+nsubj prep pobj
+nsubj dobj conj
+nsubjpass prep pobj
+prep prep pobj pobj
+compound compound nsubjpass dative pobj
+dobj prep pcomp
+prep pobj
+nsubjpass prep pobj
+nsubjpass prep pobj
+dobj prep pobj
+dobj prep pobj
+nsubjpass agent pobj
+prep pobj
+acl agent pobj
+nsubj attr prep pobj conj
+prep pobj nsubjpass agent pobj
+nsubj attr prep pobj compound
+nsubjpass agent pobj prep pobj compound
+acl agent pobj
+nsubjpass prep pobj
+compound
+nsubjpass prep pobj acl dobj
+nsubj attr prep pobj
+prep pobj
+pobj prep pobj prep dobj
+acl prep pobj amod
+prep pobj
+prep pobj
+prep pcomp npadvmod
+prep pobj
+compound nsubj conj dobj prep pobj
+prep pobj
+prep pobj prep pobj acl dobj
+acl dobj
+prep pobj
+nsubj advcl prep pobj
+nsubj prep pobj prep pobj
+nsubj dobj compound
+nsubjpass prep pobj
+nsubjpass agent pobj
+prep pobj
+nsubj dobj
+prep prep pobj pobj compound
+nsubj dobj prep pobj
+prep pobj
+acl agent pobj compound compound
+nsubjpass agent pobj
+nsubjpass prep pobj
+prep pobj
+nsubjpass prep pobj
+relcl nsubj
+nsubj attr acl agent pobj
+nsubj prep pobj
+dobj xcomp dobj
+nsubj dobj prep pobj
+dobj prep pobj
+nsubjpass prep pobj
+nsubj dobj
+nsubj attr prep pobj
+nsubj prep pobj prep pobj
+nsubjpass prep pobj
+compound nsubj prep pobj
+nsubj prep pobj
+nsubjpass prep pobj
+
+nsubjpass prep pobj
+nsubjpass prep pobj
+nsubjpass agent pobj amod
+nsubj dobj acl dobj
+prep pobj nsubj attr compound
+nsubj prep prep pobj
+prep dobj pobj compound
+prep pobj compound
+nsubjpass prep pobj
+nsubj prep pobj
+nsubj prep pobj
+relcl prep pobj compound
+dobj prep pobj
+nsubjpass prep pobj
+prep pobj
+nsubjpass prep pobj
+prep pobj
+prep pobj
+acl prep prep pobj
+acl prep pobj
+nsubj prep pobj
+dobj prep prep pobj pobj
+compound
+acl agent pobj compound

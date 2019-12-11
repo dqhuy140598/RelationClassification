@@ -1,0 +1,7 @@
+gensim
+sklearn
+torch
+torchvision
+spacy
+nltk
+numpy

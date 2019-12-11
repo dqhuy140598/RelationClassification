@@ -1,0 +1,16 @@
+{
+    "n_classes":19,
+    "n_filters":128,
+    "filters_size":[2,3,4,5],
+    "embedding_size":300,
+    "depend_embedding_size":6,
+    "pos_embedding_size":6,
+    "pos_size":50,
+    "depend_size":50,
+    "drop_out":0.2,
+    "lr":0.001,
+    "batch_size":32,
+    "epochs":10,
+    "max_length":13,
+    "clip_grad": 5
+}
