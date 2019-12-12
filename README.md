@@ -8,29 +8,41 @@
 
 - Clone this project to Google Colab:
 
-    ``!git clone https://github.com/dqhuy140598/RelationClassification.git``
+    ```bash
+    !git clone https://github.com/dqhuy140598/RelationClassification.git
+    ```
 
 - Download pretrained Word2Vec:
 
-    ``!wget https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz``
+    ```bash
+    !wget https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz
+    ```
 
 - Unzip pretrained Word2Vec:
 
-    ``!gunzip GoogleNews-vectors-negative300.bin.gz``
+    ```bash
+    !gunzip GoogleNews-vectors-negative300.bin.gz
+    ```
 
 - Cd to this project:
 
-    ``%cd RelationClassification/``
+    ```bash
+    %cd RelationClassification/
+    ```
     
 - Generate training and validation shortest dependency path and part of speech tagging:
 
-    ``!python ./utils/data_utils.py``
+    ```bash
+    !python ./utils/data_utils.py
+    ```
     
     (data/processed/)
 
 - Build words vocabulary:
 
-    ``!python ./utils/build_vocab.py``
+    ```bash
+    !python ./utils/build_vocab.py
+    ```
     
     (data/processed/vocab.txt)
 
@@ -38,11 +50,15 @@
 
     - If you use threshold equal to 0.5:
     
-        ``!python train.py --pretrained $PRETRAINED_PATH$``
+        ```bash
+        !python train.py --pretrained $PRETRAINED_PATH$
+        ```
     
     - Else:
         
-        ``!python train.py --pretrained $PRETRAINED_PATH$ --use_thresh True``
+        ```bash
+        !python train.py --pretrained $PRETRAINED_PATH$ --use_thresh True
+        ```
 
     -   $PRETRAINED_PATH$ : PATH to pretrained Word2Vec. Please replace it by **/content/GoogleNews-vectors-negative300.bin**
     
@@ -50,21 +66,26 @@
 
 - Convert the processed data to use for this code:
 
-    ``!python ./utils/convert.py``
+    ```bash
+    !python ./utils/convert.py
+    ```
 
 - Train model:
 
     - If you use threshold equal to 0.5:
     
-        ``!python train.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$``
+        ```bash
+        !python train.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$
+        ```
     
     - Else:
         
-        ``!python train.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$ --use_thresh True``
+        ```bash
+        !python train.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$ --use_thresh True
+        ```
 
     -   $PRETRAINED_PATH$ : PATH to the pretrained Word2Vec. Please replace it by **/content/GoogleNews-vectors-negative300.bin**
     -   $DATA_PATH$: PATH to the converted data. please replace it by **data_convert.json**
-
 
 
 
