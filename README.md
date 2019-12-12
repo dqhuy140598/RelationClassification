@@ -38,11 +38,11 @@
 
     - If you use threshold equal to 0.5:
     
-        ``!python train.py --pretrained --pretrained $PRETRAINED_PATH$``
+        ``!python train.py --pretrained $PRETRAINED_PATH$``
     
     - Else:
         
-        ``!python train.py --pretrained --pretrained $PRETRAINED_PATH$ --use_thresh True``
+        ``!python train.py --pretrained $PRETRAINED_PATH$ --use_thresh True``
 
     -   $PRETRAINED_PATH$ : PATH to pretrained Word2Vec. Please replace it by **/content/GoogleNews-vectors-negative300.bin**
     
@@ -56,11 +56,11 @@
 
     - If you use threshold equal to 0.5:
     
-        ``!python train.py --data $DATA_PATH$ --pretrained --pretrained $PRETRAINED_PATH$``
+        ``!python train.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$``
     
     - Else:
         
-        ``!python train.py --data $DATA_PATH$ --pretrained --pretrained $PRETRAINED_PATH$ --use_thresh True``
+        ``!python train.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$ --use_thresh True``
 
     -   $PRETRAINED_PATH$ : PATH to the pretrained Word2Vec. Please replace it by **/content/GoogleNews-vectors-negative300.bin**
     -   $DATA_PATH$: PATH to the converted data. please replace it by **data_convert.json**
