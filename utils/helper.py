@@ -59,7 +59,7 @@ def convert_output_to_class(preds,mu_stds,use_thresh=True,scale=1.0):
     for i in range(len(max_prob)): # loop each output of the model
         max_class_one = max_class[i] # get class with the largest probability
         threshold = max(0.5, 1. - scale * mu_stds[max_class_one][1]) if use_thresh is True else 0.5 # find threshold for the predicted class
-        print(threshold)
+        # print(threshold)
         if max_prob[i] >= threshold: # if the max value of probability greater than threshold
             pred_class.append(max_class[i]) # append the max class
         else:

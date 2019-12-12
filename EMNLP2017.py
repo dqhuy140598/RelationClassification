@@ -1,15 +1,15 @@
 import json
 import numpy as np
+
 np.random.seed(1)
 import keras
 # print keras.__version__ #version 2.1.2
 from keras import preprocessing
 import argparse
 
-def train(pretrained_path,use_thresh):
 
-
-    fn = '/content/gdrive/My Drive/sdp.json'  # origial review documents, there are 50 classes
+def train(data_path, pretrained_path, use_thresh):
+    fn = data_path  # origial review documents, there are 50 classes
     with open(fn, 'r') as infile:
         docs = json.load(infile)
     X = docs['X']
@@ -54,7 +54,7 @@ def train(pretrained_path,use_thresh):
     from gensim.models import KeyedVectors
 
     # Load pretrained model (since intermediate data is not included, the model cannot be refined with additional data)
-    embedd = KeyedVectors.load_word2vec_format(pretrained_path,binary=True)
+    embedd = KeyedVectors.load_word2vec_format(pretrained_path, binary=True)
 
     def index_word(X):
         seqs = []
@@ -132,7 +132,7 @@ def train(pretrained_path,use_thresh):
         print(count)
         return init_w, coverage
 
-    matrix, cov = load_word_embedding(embedd, 300, word_to_idx, 9094)
+    matrix, cov = load_word_embedding(embedd, 300, word_to_idx, len(word_to_idx.keys()) + 2)
 
     # In[11]:
 
@@ -251,7 +251,9 @@ def train(pretrained_path,use_thresh):
     for p in test_X_pred:  # loop every test prediction
         max_class = np.argmax(p)  # predicted class
         max_value = np.max(p)  # predicted probability
-        threshold = max(0.5, 1. - scale * mu_stds[max_class][1]) if use_thresh else 0.5  # find threshold for the predicted class
+        threshold = max(0.5, 1. - scale * mu_stds[max_class][
+            1]) if use_thresh else 0.5  # find threshold for the predicted class
+        print(threshold)
         # threshold = 0.5
         if max_value > threshold:
             test_y_pred.append(max_class)  # predicted probability is greater than threshold, accept
@@ -270,14 +272,14 @@ def train(pretrained_path,use_thresh):
     print('macro fscore: ', np.mean(fscore))
     print(classification_report(test_y_gt, test_y_pred))
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data','your data path',required=True)
-    parser.add_argument('--pretrained',help='your pretrained word2vec path',required=True)
-    parser.add_argument('--use_thresh',\
-                        help='If False then threshold =0.5 else calculate threshold from output probability',\
-                        default=False,type=bool)
+    parser.add_argument("--data", help='your data path')
+    parser.add_argument('--pretrained', help='your pretrained word2vec path', required=True)
+    parser.add_argument('--use_thresh', \
+                        help='If False then threshold =0.5 else calculate threshold from output probability', \
+                        default=False, type=bool)
     args = parser.parse_args()
     # print(type(args.cal_thresh))
-    train(args.pretrained,args.use_thresh)
+    train(args.data, args.pretrained, args.use_thresh)
