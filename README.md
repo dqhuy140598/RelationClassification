@@ -75,13 +75,13 @@
     - If you use threshold equal to 0.5:
     
         ```bash
-        !python train.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$
+        !python EMNLP2017.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$
         ```
     
     - Else:
         
         ```bash
-        !python train.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$ --use_thresh True
+        !python EMNLP2017.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$ --use_thresh True
         ```
 
     -   $PRETRAINED_PATH$ : PATH to the pretrained Word2Vec. Please replace it by **/content/GoogleNews-vectors-negative300.bin**
