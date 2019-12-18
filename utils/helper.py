@@ -5,6 +5,8 @@ import numpy as np
 from scipy.stats import norm as dist_model
 import matplotlib.pyplot as plt
 from utils.data_utils import class2label
+
+
 def cal_mean(lis):
     return sum(lis)/len(lis)
 
@@ -45,7 +47,7 @@ def cal_thresh(pred_prob,labels):
     return mu_stds
 
 
-def convert_output_to_class(preds,mu_stds,use_thresh=True,scale=1.0):
+def convert_output_to_class(preds,mu_stds,n_seen_classes,use_thresh=True,scale=1.0):
     """
     convert the output of model to predicted class
     @param preds: the output of the model
@@ -64,7 +66,7 @@ def convert_output_to_class(preds,mu_stds,use_thresh=True,scale=1.0):
         if max_prob[i] >= threshold: # if the max value of probability greater than threshold
             pred_class.append(max_class[i]) # append the max class
         else:
-            pred_class.append(-1) # append unseen class
+            pred_class.append(n_seen_classes) # append unseen class
     return pred_class
 
 

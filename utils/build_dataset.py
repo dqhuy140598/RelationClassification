@@ -28,7 +28,7 @@ def split_to_seen_unseen(sdp,sdp_pos,label_idx,seen_classes):
         else:
             unseen_sdp.append(sdp[i])
             unseen_sdp_pos.append(sdp_pos[i])
-            unseen_label.append(label)
+            unseen_label.append(len(seen_classes))
 
     return seen_sdp,seen_sdp_pos,seen_label,unseen_sdp,unseen_sdp_pos,unseen_label
 

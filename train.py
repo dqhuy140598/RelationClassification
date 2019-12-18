@@ -1,5 +1,5 @@
 from utils.build_vocab import load_word_embedding
-from utils.build_vocab import load_vocab_to_dict,load_pos_vocab_to_dict
+from utils.build_vocab import load_vocab_to_dict, load_pos_vocab_to_dict
 from utils.helper import *
 from gensim.models import KeyedVectors
 from model.cnn import CNN
@@ -15,9 +15,10 @@ from torch.utils.data import DataLoader
 # from dataset import RelationDataset
 from dataset_ratio import RelationDataset
 import argparse
+import math
 
 
-def train(params,pretrained_path,use_thresh,ratio):
+def train(params, pretrained_path, use_thresh, ratio):
     """
     Train the cnn model
     @param params: hyper parameters
@@ -56,7 +57,15 @@ def train(params,pretrained_path,use_thresh,ratio):
 
     test_loader = DataLoader(dataset=test_dataset, batch_size=params['batch_size'], shuffle=False, num_workers=0)
 
-    tmp = list(range(19))
+    seen_classes = int(math.ceil(ratio * 19))
+
+    if seen_classes != 19:
+
+        tmp = list(range(seen_classes + 1))
+
+    else:
+
+        tmp = list(range(seen_classes))
 
     scheduler.step()
 
@@ -150,7 +159,7 @@ def train(params,pretrained_path,use_thresh,ratio):
             loss = cnn_model.loss(batch_output, label)
 
             # Calculate the predicted class using train probability mean and standard deviation
-            pred_class = convert_output_to_class(batch_output, mu_stds,use_thresh)
+            pred_class = convert_output_to_class(batch_output, mu_stds, seen_classes, use_thresh)
 
             val_loss.append(loss.item())
 
@@ -171,8 +180,9 @@ def train(params,pretrained_path,use_thresh,ratio):
             output_labels.extend(pred_class)
             target_labels.extend(label_class)
 
-
         # print('epochs:{0}, loss:{1:.2f}, accuracy:{2:.2f},val_loss:{3:.2f},val_acc:{4:.2f}'.format(epoch,cal_mean(epoch_loss),cal_mean(epoch_acc),cal_mean(val_loss),cal_mean(val_acc)))
+
+        # print(output_labels)
 
         print('epochs:{0}, loss:{1:.2f},val_loss:{2:.2f}'.format(epoch, cal_mean(epoch_loss), cal_mean(val_loss)))
 
@@ -184,15 +194,14 @@ def train(params,pretrained_path,use_thresh,ratio):
 
 
 if __name__ == '__main__':
-
     params_config = 'config/params.json'
     params = parse_json(params_config)
     parser = argparse.ArgumentParser()
-    parser.add_argument('--pretrained',help='your pretrain      ed word2vec path',required=True)
-    parser.add_argument('--use_thresh',\
-                        help='If False then threshold =0.5 else calculate threshold from output probability',\
-                        default=False,type=bool)
-    parser.add_argument('--ratio',type=float,help='ratio',default=1.0)
+    parser.add_argument('--pretrained', help='your pretrain      ed word2vec path', required=True)
+    parser.add_argument('--use_thresh', \
+                        help='If False then threshold =0.5 else calculate threshold from output probability', \
+                        default=False, type=bool)
+    parser.add_argument('--ratio', type=float, help='ratio', default=1.0)
     args = parser.parse_args()
     # print(type(args.cal_thresh))
-    train(params,args.pretrained,args.use_thresh,args.ratio)
+    train(params, args.pretrained, args.use_thresh, args.ratio)
