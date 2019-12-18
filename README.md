@@ -51,16 +51,17 @@
     - If you use threshold equal to 0.5:
     
         ```bash
-        !python train.py --pretrained $PRETRAINED_PATH$
+        !python train.py --pretrained $PRETRAINED_PATH$ --ratio $RATIO$
         ```
     
     - Else:
         
         ```bash
-        !python train.py --pretrained $PRETRAINED_PATH$ --use_thresh True
+        !python train.py --pretrained $PRETRAINED_PATH$ --use_thresh True --ratio $RATIO$
         ```
 
     -   $PRETRAINED_PATH$ : PATH to pretrained Word2Vec. Please replace it by **/content/GoogleNews-vectors-negative300.bin**
+    -   $RATIO$: default equal to 1.0
     
 **2. EMNLP2017 Code:**
 
@@ -75,17 +76,18 @@
     - If you use threshold equal to 0.5:
     
         ```bash
-        !python EMNLP2017.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$
+        !python EMNLP2017.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$ --ratio $RATIO$
         ```
     
     - Else:
         
         ```bash
-        !python EMNLP2017.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$ --use_thresh True
+        !python EMNLP2017.py --data $DATA_PATH$ --pretrained $PRETRAINED_PATH$ --use_thresh True --ratio $RATIO$
         ```
 
     -   $PRETRAINED_PATH$ : PATH to the pretrained Word2Vec. Please replace it by **/content/GoogleNews-vectors-negative300.bin**
     -   $DATA_PATH$: PATH to the converted data. please replace it by **data_convert.json**
+    -   $RATIO$: default equal to 1.0
 
 
 
