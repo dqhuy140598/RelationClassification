@@ -6,9 +6,10 @@ import keras
 # print keras.__version__ #version 2.1.2
 from keras import preprocessing
 import argparse
+import math
 
 
-def train(data_path, pretrained_path, use_thresh):
+def train(data_path, pretrained_path, use_thresh, ratio):
     fn = data_path  # origial review documents, there are 50 classes
     with open(fn, 'r') as infile:
         docs = json.load(infile)
@@ -85,7 +86,7 @@ def train(data_path, pretrained_path, use_thresh):
         shuffled_X = X
         shuffled_y = y
 
-        split_idx = 8000
+        split_idx = 7999
 
         return shuffled_X[:split_idx], shuffled_y[:split_idx], shuffled_X[split_idx:], shuffled_y[split_idx:]
 
@@ -96,24 +97,42 @@ def train(data_path, pretrained_path, use_thresh):
     # In[10]:
 
     # split reviews into seen classes and unseen classes
-    def splitSeenUnseen(X, y, seen, unseen):
+    def splitSeenUnseen(X, y, seen, unseen=None):
         seen_mask = np.in1d(y, seen)  # find examples whose label is in seen classes
-        # unseen_mask = np.in1d(y, unseen)# find examples whose label is in unseen classes
+        unseen_mask = np.in1d(y, unseen)  # find examples whose label is in unseen classes
 
-        # print np.array_equal(np.logical_and(seen_mask, unseen_mask), np.zeros((y.shape), dtype= bool))#expect to see 'True', check two masks are exclusive
+        print
+        np.array_equal(np.logical_and(seen_mask, unseen_mask),
+                       np.zeros((y.shape), dtype=bool))  # expect to see 'True', check two masks are exclusive
 
         # map elements in y to [0, ..., len(seen)] based on seen, map y to unseen_label when it belongs to unseen classes
         to_seen = {l: i for i, l in enumerate(seen)}
-        # unseen_label = len(seen)
-        # to_unseen = {l:unseen_label for l in unseen}
 
-        return X[seen_mask], np.vectorize(to_seen.get)(y[seen_mask])
+        if unseen is not None:
+            unseen_label = len(seen)
+            to_unseen = {l: unseen_label for l in unseen}
+            return X[seen_mask], np.vectorize(to_seen.get)(y[seen_mask]), X[unseen_mask], np.vectorize(to_unseen.get)(
+                y[unseen_mask])
+        else:
 
-    seen = range(0, 19)  # seen classes
-    unseen = range(0, 50)  # unseen classes
+            return X[seen_mask], np.vectorize(to_seen.get)(y[seen_mask])
 
-    seen_train_X, seen_train_y = splitSeenUnseen(train_X, train_y, seen, unseen)
-    seen_test_X, seen_test_y = splitSeenUnseen(test_X, test_y, seen, unseen)
+    seen_classes = int(math.ceil(ratio * 19))
+
+    print(">>>>>>> Use {0:.2f} % as seen classes".format(ratio * 100))
+
+    seen = range(seen_classes)  # seen classes
+    unseen = range(seen_classes, 50)  # unseen classes
+
+    if ratio != 1.0:
+
+        seen_train_X, seen_train_y, _, _ = splitSeenUnseen(train_X, train_y, seen, unseen)
+        seen_test_X, seen_test_y, unseen_test_X, unseen_test_y = splitSeenUnseen(test_X, test_y, seen, unseen)
+
+    else:
+
+        seen_train_X, seen_train_y = splitSeenUnseen(train_X, train_y, seen, None)
+        seen_test_X, seen_test_y = splitSeenUnseen(test_X, test_y, seen, None)
 
     from keras.utils.np_utils import to_categorical
     cate_seen_train_y = to_categorical(seen_train_y, len(seen))  # make train y to categorial/one hot vectors
@@ -207,7 +226,7 @@ def train(data_path, pretrained_path, use_thresh):
     early_stopping = EarlyStopping(monitor='val_loss', patience=5)
 
     model.fit(seen_train_X, cate_seen_train_y,
-              epochs=20, batch_size=64, callbacks=[checkpointer, early_stopping], validation_split=0.2)
+              epochs=20, batch_size=64, callbacks=[checkpointer, early_stopping], validation_split=0.05)
 
     model.load_weights(bestmodel_path)
 
@@ -239,8 +258,15 @@ def train(data_path, pretrained_path, use_thresh):
     # In[20]:
 
     # predict on test examples
-    test_X_pred = model.predict(seen_test_X)
-    test_y_gt = seen_test_y
+
+    if ratio != 1.0:
+        test_X_pred = model.predict(np.concatenate([seen_test_X, unseen_test_X], axis=0))
+        test_y_gt = np.concatenate([seen_test_y, unseen_test_y], axis=0)
+    else:
+        test_X_pred = model.predict(seen_test_X)
+        test_y_gt = seen_test_y
+
+    print(test_X_pred.shape, test_y_gt.shape)
     # print test_X_pred.shape, test_y_gt.shape
 
     # In[23]:
@@ -253,7 +279,7 @@ def train(data_path, pretrained_path, use_thresh):
         max_value = np.max(p)  # predicted probability
         threshold = max(0.5, 1. - scale * mu_stds[max_class][
             1]) if use_thresh else 0.5  # find threshold for the predicted class
-        print(threshold)
+        # print(threshold)
         # threshold = 0.5
         if max_value > threshold:
             test_y_pred.append(max_class)  # predicted probability is greater than threshold, accept
@@ -268,9 +294,14 @@ def train(data_path, pretrained_path, use_thresh):
 
     # In[27]:
 
-    precision, recall, fscore, _ = precision_recall_fscore_support(test_y_gt, test_y_pred)
+    if seen_classes != 19:
+        tmp = list(range(seen_classes + 1))
+    else:
+        tmp = list(range(seen_classes))
+
+    precision, recall, fscore, _ = precision_recall_fscore_support(test_y_gt, test_y_pred, labels=tmp)
     print('macro fscore: ', np.mean(fscore))
-    print(classification_report(test_y_gt, test_y_pred))
+    print(classification_report(test_y_gt, test_y_pred, labels=tmp))
 
 
 if __name__ == '__main__':
@@ -280,6 +311,7 @@ if __name__ == '__main__':
     parser.add_argument('--use_thresh', \
                         help='If False then threshold =0.5 else calculate threshold from output probability', \
                         default=False, type=bool)
+    parser.add_argument('--ratio', type=float, help='ratio', default=1.0)
     args = parser.parse_args()
     # print(type(args.cal_thresh))
-    train(args.data, args.pretrained, args.use_thresh)
+    train(args.data, args.pretrained, args.use_thresh, args.ratio)
