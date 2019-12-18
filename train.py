@@ -81,11 +81,11 @@ def train(params,pretrained_path,use_thresh,ratio):
 
         for batch in train_loader:
             # fetch the next training batch
-            sdp, sdp_pos, depend, label = batch
+            sdp, sdp_pos, label = batch
 
             label = label.type(torch.FloatTensor)
             # compute model output and loss
-            batch_output = cnn_model([sdp, sdp_pos, depend])
+            batch_output = cnn_model([sdp, sdp_pos])
 
             # print(torch.sigmoid(batch_output))
 
@@ -141,12 +141,12 @@ def train(params,pretrained_path,use_thresh,ratio):
 
         for batch in test_loader:
             # fetch the next training batch
-            sdp, sdp_pos, depend, label = batch
+            sdp, sdp_pos, label = batch
 
             label = label.type(torch.FloatTensor)
 
             # compute model output and loss
-            batch_output = cnn_model([sdp, sdp_pos, depend])
+            batch_output = cnn_model([sdp, sdp_pos])
             loss = cnn_model.loss(batch_output, label)
 
             # Calculate the predicted class using train probability mean and standard deviation
