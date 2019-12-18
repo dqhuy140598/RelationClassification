@@ -9,7 +9,7 @@
 - Clone this project to Google Colab:
 
     ```bash
-    !git clone https://github.com/dqhuy140598/RelationClassification.git
+    !git clone -b ratio https://github.com/dqhuy140598/RelationClassification.git
     ```
 
 - Download pretrained Word2Vec:
