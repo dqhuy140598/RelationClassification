@@ -2,6 +2,7 @@ from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 from utils.build_vocab import *
 from utils.data_utils import class2label
+from utils.build_dataset import build_dataset_with_ratio
 import math
 vocab_path = "data/processed/vocab.txt"
 pos_vocab_path = 'data/processed/pos_vocab.txt'
@@ -20,36 +21,33 @@ class RelationDataset(Dataset):
         @param max_length_sdp: max sequence length of shortest dependency path
         @param train: True if train data else False
         """
-        self.file_dir = file_dir
-        self.sentences_path = os.path.join(self.file_dir, 'val/sdp.txt')
-        self.labels_path = os.path.join(self.file_dir, 'val/labels.txt')
-        self.sdp_pos_path = os.path.join(self.file_dir, 'val/sdp_pos.txt')
-        self.depend_path = os.path.join(self.file_dir, 'val/depend.txt')
+
         self.train = train
         self.n_classes = 19
         self.ratio = ratio
         self.max_length_sdp = max_length_sdp
-        if self.train:
-            self.sentences_path = os.path.join(self.file_dir, 'train/sdp.txt')
-            self.labels_path = os.path.join(self.file_dir, 'train/labels.txt')
-            self.sdp_pos_path = os.path.join(self.file_dir, 'train/sdp_pos.txt')
-            self.depend_path = os.path.join(self.file_dir, 'train/depend.txt')
-        with open(self.sentences_path, 'r') as f:
-            self.sdp_lines = f.readlines()
-        with open(self.labels_path, 'r') as f:
-            self.labels = f.readlines()
-        with open(self.sdp_pos_path, 'r') as f:
-            self.sdp_pos = f.readlines()
-        with open(self.depend_path, 'r') as f:
-            self.depends = f.readlines()
 
-        self.construct_seen_and_unseen_class(self.ratio)
+        data = build_dataset_with_ratio(file_dir,ratio,self.n_classes,train=self.train)
 
+        self.seen_sdp = data[0]
+        self.seen_sdp_pos = data[1]
+        self.seen_label = data[2]
 
-    def construct_seen_and_unseen_class(self,ratio):
-        n_seen_classes = math.ceil(ratio * self.n_classes)
-        self.seen_classes = list(range(n_seen_classes))
-        self.unseen_class = list(range(n_seen_classes,self.n_classes))
+        if not self.train:
+            if self.ratio != 1.0:
+                self.unseen_sdp = data[3]
+                self.unseen_sdp_pos = data[4]
+                self.unseen_label = data[5]
+            else:
+                self.unseen_sdp = None
+                self.unseen_sdp_pos = None
+                self.unseen_label = None
+
+            if self.unseen_sdp is not None:
+
+                self.seen_sdp.extend(self.unseen_sdp)
+                self.seen_sdp_pos.extend(self.unseen_sdp_pos)
+                self.seen_label.extend(self.unseen_label)
 
     def convert_sdp_to_idx(self, sdp):
         """
@@ -164,7 +162,7 @@ class RelationDataset(Dataset):
         return the length of the dataset
         @return: a integer denotes the length of the dataset
         """
-        return len(self.sdp_lines)
+        return len(self.seen_sdp)
 
     def __getitem__(self, idx):
         """
@@ -172,30 +170,31 @@ class RelationDataset(Dataset):
         @param idx: index of the sample
         @return: processed data (sdp_idx_pad, sdp_pos_idx_pad, depend_idx_pad, label_one_hot)
         """
-        sdp = self.sdp_lines[idx]
-        label = self.labels[idx]
-        sdp_pos = self.sdp_pos[idx]
-        depend = self.depends[idx]
+        sdp = self.seen_sdp[idx]
+        label = self.seen_label[idx]
+        sdp_pos = self.seen_sdp_pos[idx]
+        # depend = self.depends[idx]
         # print(sdp)
         # print(sdp_pos)
 
         sdp_idx = self.convert_sdp_to_idx(sdp)
         sdp_pos_idx = self.convert_sdp_pos_to_idx(sdp_pos)
-        depend_idx = self.convert_depend_to_idx(depend)
+        # depend_idx = self.convert_depend_to_idx(depend)
         assert len(sdp_idx) == len(sdp_pos_idx)
         # print(sdp_idx,sdp_pos_idx)
         sdp_idx_pad = self.pad_to_max_length(sdp_idx)
         sdp_pos_idx_pad = self.pad_pos_to_max_length(sdp_pos_idx)
-        depend_idx_pad = self.pad_depend_to_max_length(depend_idx)
-        label_idx = self.convert_label_to_idx(label)
+        # depend_idx_pad = self.pad_depend_to_max_length(depend_idx)
+        label_idx = label
         label_one_hot = self.convert_to_one_hot(label_idx)
-        return sdp_idx_pad, sdp_pos_idx_pad, depend_idx_pad, label_one_hot
+        return sdp_idx_pad, sdp_pos_idx_pad, label_one_hot
 
 
 if __name__ == '__main__':
 
-    train_dataset = RelationDataset('data/processed', max_length_sdp=13, train=True)
+    train_dataset = RelationDataset('data/processed', max_length_sdp=13, ratio=0.75, train=False)
+    print(train_dataset.__len__())
     train_loader = DataLoader(dataset=train_dataset, batch_size=10, shuffle=True, num_workers=0)
     for batch in train_loader:
-        print(batch[0], batch[1], batch[2], batch[3])
+        print(batch[0], batch[1], batch[2])
         break

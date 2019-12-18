@@ -3,7 +3,8 @@ import json
 import torch
 import numpy as np
 from scipy.stats import norm as dist_model
-
+import matplotlib.pyplot as plt
+from utils.data_utils import class2label
 def cal_mean(lis):
     return sum(lis)/len(lis)
 
@@ -65,3 +66,26 @@ def convert_output_to_class(preds,mu_stds,use_thresh=True,scale=1.0):
         else:
             pred_class.append(-1) # append unseen class
     return pred_class
+
+
+def plot_distribution(file_path):
+    list_label = []
+    with open(file_path,'r') as f:
+        lines = f.readlines()
+        for line in lines:
+            line = line.strip()
+            label_idx = class2label[line]
+            list_label.append(label_idx)
+
+    list_label = np.array(list_label)
+    count = np.bincount(list_label)
+    temp = list(range(19))
+    plt.bar(temp,count)
+    plt.xticks(temp)
+    plt.show()
+
+
+if __name__ == '__main__':
+    train_path = 'data/processed/train/labels.txt'
+    val_path = 'data/processed/val/labels.txt'
+    plot_distribution(train_path)

@@ -12,10 +12,12 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
-from dataset import RelationDataset
+# from dataset import RelationDataset
+from dataset_ratio import RelationDataset
 import argparse
 
-def train(params,pretrained_path,use_thresh):
+
+def train(params,pretrained_path,use_thresh,ratio):
     """
     Train the cnn model
     @param params: hyper parameters
@@ -46,11 +48,11 @@ def train(params,pretrained_path,use_thresh):
 
     scheduler = LambdaLR(optimizer, lr_lambda=lambda epoch: 1 / (1 + 0.05 * epoch))
 
-    train_dataset = RelationDataset(file_dir=file_dir, max_length_sdp=params['max_length'], train=True)
+    train_dataset = RelationDataset(file_dir=file_dir, max_length_sdp=params['max_length'], ratio=ratio, train=True)
 
     train_loader = DataLoader(dataset=train_dataset, batch_size=params['batch_size'], shuffle=True, num_workers=2)
 
-    test_dataset = RelationDataset(file_dir=file_dir, max_length_sdp=params['max_length'], train=False)
+    test_dataset = RelationDataset(file_dir=file_dir, max_length_sdp=params['max_length'], ratio=ratio, train=False)
 
     test_loader = DataLoader(dataset=test_dataset, batch_size=params['batch_size'], shuffle=False, num_workers=0)
 
@@ -186,10 +188,11 @@ if __name__ == '__main__':
     params_config = 'config/params.json'
     params = parse_json(params_config)
     parser = argparse.ArgumentParser()
-    parser.add_argument('--pretrained',help='your pretrained word2vec path',required=True)
+    parser.add_argument('--pretrained',help='your pretrain      ed word2vec path',required=True)
     parser.add_argument('--use_thresh',\
                         help='If False then threshold =0.5 else calculate threshold from output probability',\
                         default=False,type=bool)
+    parser.add_argument('--ratio',type=float,help='ratio',default=1.0)
     args = parser.parse_args()
     # print(type(args.cal_thresh))
-    train(params,args.pretrained,args.use_thresh)
+    train(params,args.pretrained,args.use_thresh,args.ratio)
